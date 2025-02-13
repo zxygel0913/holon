@@ -1,0 +1,47 @@
+{% if variant.title %}
+  {%- assign compare_at_price = variant.compare_at_price -%}
+  {%- assign price = variant.price -%}
+  {%- assign available = variant.available -%}
+   {%- assign product = variant -%}
+{% else %}
+  {%- assign compare_at_price = 1999 -%}
+  {%- assign price = 1999 -%}
+  {%- assign available = true -%}
+ 
+{% endif %}
+{%- assign money_price = price | money -%}
+
+{% if compare_at_price > price %}
+  {% assign on_sale = true %}
+{% endif %}
+
+<div class="product_price">
+  <div class="grid-link__org_price" id="ProductPrice">
+ {% if product.metafields.izyunit.izyunit %}
+
+
+<div id="izyunit_{{product.id}}" class="izyunit izyunit_price izyunit_collection price" style="font-weight: 600;">{% if product.metafields.izyunit.izyunit.price %}{{product.metafields.izyunit.izyunit.price | times: 100| money }}{% else %}{{product.metafields.izyunit.izyunit.value.price | times: 100| money }}{% endif %} / {% if product.metafields.izyunit.izyunit.metric %}{{product.metafields.izyunit.izyunit.metric}} {% else %}{{product.metafields.izyunit.izyunit.value.metric}}
+{% endif %}
+</div>
+
+   {% else %}
+     {{ money_price }}
+    
+{% endif %}
+
+ 
+  </div>
+</div>
+
+{% if on_sale %}
+  <del class="grid-link__sale_price" id="ComparePrice">
+    {{ compare_at_price | money }}
+  </del>
+{% endif %}
+
+
+{% comment %}
+{% assign my_integer = 12 %}
+{% assign my_float = my_integer | times: 1.0 %}
+Pay in 12 EMIS {{ price | divided_by: my_float | money }}
+{% endcomment %}

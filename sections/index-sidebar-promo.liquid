@@ -1,0 +1,83 @@
+{% if section.settings.image != blank %}
+<div class="widget index-sidebar-promo">    
+  <a href="{{section.settings.link}}">        
+    <img class="lazyload"
+         src="{{ 'loading.gif' | asset_url }}"
+         data-src="{{ section.settings.image | img_url: 'master' }}"         
+         data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+         data-sizes="auto"            
+         alt="{{ section.settings.block_image.alt | escape }}">            
+    <noscript>
+      {{ section.settings.image | img_url: '480x480', scale: 2 | img_tag: section.settings.image.alt, 'dt-sc-noscript-image' }}
+    </noscript>
+  </a>  
+  <div class="index-sidebar-promo_content_{{ section.id }}">
+    {% if section.settings.title != blank %}
+    <h3> {{section.settings.title}}</h3>
+    {% endif %}
+    {% if section.settings.text != blank %}
+    <p> {{section.settings.text}}</p>
+    {% endif %}
+    {% if section.settings.link != blank  and  section.settings.link_text != blank %}
+    <a href="{{block.settings.link}}" class="dt-sc-btn">      
+      {{section.settings.link_text}}            
+    </a>    
+    {% endif %}   
+  </div>
+</div>  
+{% endif %}
+
+<style>
+  div[class*="index-sidebar"] .index-sidebar-promo_content_{{ section.id }} h5:after { display:none;}
+  div[class*="index-sidebar"] .index-sidebar-promo_content_{{ section.id }} .dt-sc-btn { display: inline-block; }
+  div[class*="index-sidebar"] .index-sidebar-promo_content_{{ section.id }} p { margin-bottom: 5px; font-size: 18px; }
+  div[class*="index-sidebar"] .index-sidebar-promo_content_{{ section.id }} { position: absolute; text-align:center; top:30px; left:0; right:0; }
+  div[class*="index-sidebar"] .index-sidebar-promo_content_{{ section.id }}, 
+  div[class*="index-sidebar"] .index-sidebar-promo_content_{{ section.id }} h3 { color: {{ section.settings.txt_color }}; margin-top:0; }
+</style>
+{% schema %}
+{
+"name": "Sidebar promo",
+"settings": [
+{
+"type": "text",
+"id": "title",
+"label": "Title",
+"default": "Heading"
+},
+{
+"type": "text",
+"id": "text",
+"label": "Text",
+"default": "Short description"
+},
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image"              
+},
+{
+"type": "text",
+"id": "link_text",
+"label": "Link Text",
+"default": "Shop Now"              
+},
+{
+"type": "url",
+"id": "link",
+"label": "Link"              
+},
+{
+"type": "color",
+"id": "txt_color",
+"label": "Color"              
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

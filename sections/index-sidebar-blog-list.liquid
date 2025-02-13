@@ -1,0 +1,143 @@
+<div class="widget index-sidebar-blog-list">
+  {% if section.settings.title != blank %}
+  <h5 class="sidebar_title">{{ section.settings.title | escape  }}</h5>
+  {% endif %}
+  {%- assign blog = blogs[section.settings.blog] -%}
+  {%- if blog.articles_count > 0 -%}
+  <ul>
+    {%- for article in blog.articles limit: section.settings.post_limit -%}
+    <li>
+      <a href="{{ article.url }}">
+        {%- if article.image -%}
+        {{ article | img_url: '150x150', scale: 2 | img_tag: '' }}
+        {%- endif -%}
+
+      </a>
+      {%- if section.settings.blog_show_date -%}
+      <span>
+        {{ article.published_at | time_tag: format: 'month_day_year' }}
+      </span>
+      {%- endif -%}
+      <a href="{{ article.url }}"> <h6>{{ article.title }}</h6></a>
+
+      {%- if section.settings.blog_show_author -%}
+      <span>
+        By {{ article.author }}
+      </span>
+      {%- endif -%}
+
+
+
+      {%- if section.settings.show_description -%}
+      <div class="description">
+        {%- if article.excerpt.size > 0 -%}
+        {{ article.excerpt }}
+        {%- else -%}
+        {{ article.content | strip_html | truncate: 150 }}
+        {%- endif -%}
+      </div>
+      {%- endif -%}
+
+      {%- if section.settings.show_tags -%}
+      {%- if article.tags.size > 0 -%}
+      <ul aria-label="{{ 'blogs.article.tags' }}">
+        {%- for tag in article.tags -%}
+        <li>
+          <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>
+        </li>
+        {%- endfor -%}
+      </ul>
+      {%- endif -%}
+      {%- endif -%}
+
+      {%- if section.settings.show_button -%}
+      <a class="dt-sc-btn" href="{{ article.url }}" aria-label="Read more: {{ article.title }}">Read more</a>
+
+      {%- endif -%}
+
+      {%- if section.settings.show_comments -%}
+      {%- if blog.comments_enabled? and article.comments_count > 0 -%}
+      <a href="{{ article.url }}#comments"> {{ article.comments_count }} comments</a>
+      {%- endif -%}
+
+      {%- endif -%}
+
+    </li>
+    {%- endfor -%}
+
+  </ul>
+  {%- endif -%}
+</div>
+
+<style>
+  .index-sidebar-blog-list li{ padding: 15px 0;}
+  .index-sidebar-blog-list li img { float:left; width:83px; padding:0 10px 30px 0; }
+  .index-sidebar-blog-list li h6 { margin:5px 0 0; }
+  
+
+</style>
+
+{% schema %}
+{
+"name": "Sidebar posts",
+"class": "index-section",
+"settings": [
+{
+"type": "text",
+"id": "title",
+"label": "Heading",
+"default": "Blog posts"
+},
+{
+"id": "blog",
+"type": "blog",
+"label": "Blog"
+},
+{
+"type": "range",
+"id": "post_limit",
+"label": "Posts",
+"min": 3,
+"max": 12,
+"step": 1,
+"default": 3
+},
+{
+"type": "checkbox",
+"id": "show_description",
+"label": "Show Description",
+"default": false
+},
+{
+"type": "checkbox",
+"id": "show_tags",
+"label": "Show Tags",
+"default": false
+},
+{
+"type": "checkbox",
+"id": "show_button",
+"label": "Show Button",
+"default": false
+},
+{
+"type": "checkbox",
+"id": "show_comments",
+"label": "Show Comments",
+"default": false
+},
+{
+"type": "checkbox",
+"id": "blog_show_author",
+"label": "Show author",
+"default": false
+},
+{
+"type": "checkbox",
+"id": "blog_show_date",
+"label": "Show date",
+"default": true
+}
+] 
+}
+{% endschema %}

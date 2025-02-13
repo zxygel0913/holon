@@ -1,0 +1,110 @@
+<div class="container">
+  <div class="order-form">
+    <div class="grid__item">
+      <h4>{{ 'customer.orders.title' | t }}</h4>
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; position: relative;">
+        <a class="dt-sc-btn" href="{{ routes.account_logout_url }}">{{ 'layout.customer.log_out' | t }}</a>
+        <a
+          class="dt-sc-btn"
+          href="/pages/account-deletion"
+          style="margin-left: 10px; background-color: red">Delete Account</a>
+      </div>
+
+      <div
+        class="modal"
+        id="deleteConfirmation"
+        style="display: none;">
+        <div class="modal-content">
+          <p style="font-size: 25px;font-weight:bold">Are you sure you want to delete your account?</p>
+          <p>
+            <strong>Note:</strong>
+            Account deletion will take 3 working days to process.</p>
+          <div style="display: flex;">
+            <button onclick="deleteAccount();">Yes</button>
+            <button onclick="cancelDelete();" style="margin-left: 10px;">Cancel</button>
+          </div>
+        </div>
+      </div>
+      {% paginate customer.orders by 20 %}
+        {% if customer.orders.size != 0 %}
+          <div class="table-wrap">
+            <table class="full">
+              <thead>
+                <tr>
+                  <th>{{ 'customer.orders.order_number' | t }}</th>
+                  <th>{{ 'customer.orders.date' | t }}</th>
+                  <th>{{ 'customer.orders.payment_status' | t }}</th>
+                  <th>{{ 'customer.orders.fulfillment_status' | t }}</th>
+                  <th>{{ 'customer.orders.total' | t }}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for order in customer.orders %}
+                  <tr>
+                    <td>
+                      <div data-id="{{order.id}}" class="identixweb_advance_reorder"></div>
+                      <div data-id="{{order.id}}" class="identixweb_advance_reorder"></div><div data-id="{{order.id}}" class="identixweb_advance_reorder"></div>{{ order.name | link_to: order.customer_url }}</td>
+                    <td>{{ order.created_at | date: "%b %d, %Y" }}</td>
+                    <td>{{ order.financial_status_label }}</td>
+                    <td>{{ order.fulfillment_status_label }}</td>
+                    <td>{{ order.total_price | money }}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+
+        {% else %}
+          <p>{{ 'customer.orders.none' | t }}</p>
+        {% endif %}
+        {% if paginate.pages > 1 %}
+          <div class="text-center">
+            {% include 'pagination-custom' %}
+          </div>
+        {% endif %}
+      {% endpaginate %}
+    </div>
+
+    <div class="grid__item">
+      <div class="address-col">
+        <h4>{{ 'customer.account.details' | t }}</h4>
+        <p>{{ customer.name }}</p>
+        {% if customer.default_address != nil %}
+          <p>
+            {{ customer.default_address.address1 }}<br>
+
+            {% if customer.default_address.address2 != "" %}
+              {{ customer.default_address.address2 }}<br>
+            {% endif %}
+
+            {% if customer.default_address.city != "" %}
+              {{ customer.default_address.city }}<br>
+            {% endif %}
+
+            {% if customer.default_address.province_code != "" %}
+              {{ customer.default_address.province_code | upcase }}<br>
+            {% endif %}
+
+            {% if customer.default_address.zip != "" %}
+              {{ customer.default_address.zip | upcase }}<br>
+            {% endif %}
+
+            {% if customer.default_address.country != "" %}
+              {{ customer.default_address.country }}<br>
+            {% endif %}
+
+            {% if customer.default_address.phone != "" %}
+              {{ customer.default_address.phone }}
+            {% endif %}
+          </p>
+
+        {% endif %}
+
+        <p>
+          <a href="/account/addresses">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>

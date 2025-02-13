@@ -1,0 +1,191 @@
+<div class="widget index-sidebar-quotes">   
+  <h5 class="sidebar_title">{{ section.settings.title }}</h5>
+  <div class="dt-sc-testimonial-content text-center">   
+    <div class="dt-sc-swiper-slider swiper-container">
+      <div id="swiper-index-quotes-slider">
+        <div class="dt-sc-testimonial-section swiper-wrapper">             
+          {%- if section.blocks.size > 0 -%}   
+          {%- for block in section.blocks -%}
+          <div class="dt-sc-testimonial swiper-slide">
+            {%- if block.settings.icon != blank -%}
+            <div class="dt-sc-testimonial-image">                   
+              <img class="lazyload"
+                   data-src="{{ block.settings.icon | img_url: '75x75' }}"                         
+                   data-aspectratio="{{ block.settings.icon.aspect_ratio }}"
+                   data-sizes="auto"            
+                   alt="{{ block.settings.author }}">
+              <noscript>
+                {{ block.settings.icon | img_url: '480x480', scale: 2 | img_tag: block.settings.icon.alt, 'dt-sc-noscript-image' }}
+              </noscript>
+            </div>   
+            {%- endif -%}
+            {%- if block.settings.author != blank -%}
+            <cite>  
+              {{ block.settings.author }}  
+            </cite>
+            {%- endif -%}             
+            {%- if block.settings.designation != blank -%}
+            <br>
+            <span>  
+              {{ block.settings.designation }}  
+            </span>
+            {%- endif -%}
+
+            <div class="dt-sc-author-rating">
+              {% case block.settings.star %}
+              {% when '0' %}
+              <div class="no-star-rating"></div>
+              {% when '0.5' %}
+              <div class="half-star-rating"></div>
+              {% when '1' %}
+              <div class="one-star-rating"></div>
+              {% when '1.5' %}
+              <div class="one-half-star-rating"></div>
+              {% when '2' %}
+              <div class="two-star-rating"></div>
+              {% when '2.5' %}
+              <div class="two-half-star-rating"></div>
+              {% when '3' %}
+              <div class="three-star-rating"></div>
+              {% when '3.5' %}
+              <div class="three-half-star-rating"></div>
+              {% when '4' %}
+              <div class="four-star-rating"></div>
+              {% when '4.5' %}
+              <div class="four-half-star-rating"></div>
+              {% when '5' %}
+              <div class="five-star-rating"></div>
+              {% endcase %}
+            </div>
+            {%- if block.settings.quote != blank -%}
+            <blockquote>
+              {{ block.settings.quote }}
+            </blockquote>
+            {%- endif -%}
+          </div>
+          {%- endfor -%}
+          {%- endif -%}
+        </div>
+        <div id="swiper-index-quotes-pagination" class="swiper-pagination"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var swiper = new Swiper('#swiper-index-quotes-slider', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop:true,                          
+      autoHeight: true,                            
+      pagination: {
+        el: '#swiper-index-quotes-pagination',
+        clickable: true,                            
+        type: 'bullets'
+      },                                 
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      }
+    });
+  });  
+</script>
+{% schema %}
+{
+"name": "Sidebar Testimonials",
+"class": "index-section",
+"max_blocks": 8,
+"settings": [
+{
+"type": "text",
+"id": "title",
+"label": "Heading",
+"default": "Testimonials"
+}
+],
+"blocks": [
+{
+"type": "quote",
+"name": "Testimonial",
+"settings": [
+{
+"type": "richtext",
+"id": "quote",
+"label": "Text",
+"default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+},
+{
+"type": "image_picker",
+"id": "icon",
+"label": "Icon"          
+},
+{
+"type": "text",
+"id": "author",
+"label": "Author",
+"default": "Author’s name"
+},
+{
+"type": "text",
+"id": "designation",
+"label": "Designation",
+"default": "Author’s designation"
+},
+{
+"type": "select",
+"id": "star",
+"label": "rating",
+"default": "3",
+"options": [
+{
+"value": "0",
+"label": "0"
+},
+{
+"value": "0.5",
+"label": "0.5"
+},
+{
+"value": "1",
+"label": "1"
+},
+{
+"value": "1.5",
+"label": "1.5"
+},
+{
+"value": "2",
+"label": "2"
+},
+{
+"value": "2.5",
+"label": "2.5"
+},
+{
+"value": "3",
+"label": "3"
+},
+{
+"value": "3.5",
+"label": "3.5"
+},
+{
+"value": "4",
+"label": "4"
+},
+{
+"value": "4.5",
+"label": "4.5"
+},
+{
+"value": "5",
+"label": "5"
+}
+]
+}
+]
+}
+] 
+}
+{% endschema %}

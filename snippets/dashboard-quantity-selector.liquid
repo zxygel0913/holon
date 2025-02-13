@@ -1,0 +1,72 @@
+<div class="ajaxcart__qty product-item-caption-qty">
+  <button
+    onclick="minusItemToCart({{item.id}})"
+    type="button"
+    class="minus-{{item.id}} minus ajaxcart__qty-adjust ajaxcart__qty--minus quantity-increment">-</button>
+  <input
+    class="ajaxcart__qty-num ajaxcart__qty-num-{{item.id}} input-number input{{item.id}}"
+    type="text"
+    name="updates[]"
+    value="0"
+    min="0"
+    data-id="{{id}}"
+    data-line="{{line}}"
+    aria-label="quantity"
+    pattern="[0-9]*">
+  <button
+    onclick="plusItemToCart({{item.id}})"
+    type="button"
+    class="ajaxcart__qty-adjust ajaxcart__qty--plus quantity-increment">+</button>
+  {% comment %}<button
+  type="submit"
+  name="add"
+  class="btn">
+  {% render 'icon-cart' %}
+  </button>
+  {% endcomment %}</div>
+<script>
+  $(document).ready(function() {})
+  function plusItemToCart(id) {
+    let quantity = document.querySelector('.ajaxcart__qty-num-{{item.id}}').value
+    console.log(document.querySelector('.ajaxcart__qty-num').value)
+    data = {
+      "id": id,
+      "quantity": parseInt(quantity) + 1
+    }
+    if (quantity == 0) {
+      jQuery.ajax({
+        type: 'POST',
+        url: '/cart/add.js',
+        data: data,
+        dataType: 'json',
+        success: function() {}
+      });
+    } else {
+      jQuery.ajax({
+        type: 'POST',
+        url: '/cart/change.js',
+        data: data,
+        dataType: 'json',
+        success: function() {}
+      });
+    }
+
+  }
+  function minusItemToCart(id) {
+    let quantity = document.querySelector('.ajaxcart__qty-num-{{item.id}}').value
+    data = {
+      "id": id,
+      "quantity": parseInt(quantity) - 1
+    }
+    if (quantity == 0) {} else {
+      jQuery.ajax({
+        type: 'POST',
+        url: '/cart/change.js',
+        data: data,
+        dataType: 'json',
+        success: function() {}
+      });
+    }
+
+  }
+</script>

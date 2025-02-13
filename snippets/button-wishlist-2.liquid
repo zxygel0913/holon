@@ -1,0 +1,40 @@
+{% comment %}
+Shopify Wishlist
+Usage:
+- Markup: {%- render 'button-wislist', product: product -%}
+- Place this snippet inside your existing product card snippet
+
+Parameters:
+- product: <Shopify product> (required)
+{% endcomment %}
+{%- if product.handle != blank -%}
+  <div v-if="isInWishList('{{ product.handle }}')">
+    <a
+      href="/pages/wishlist"
+      aria-label="Add to wishlist"
+      class="dt-sc-btn dT-icon-add-wlist-loaded"
+      style="padding:8px;background: transparent;"
+      data-product_handle="{{ product.handle }}"
+      data-product-handle="{{ product.handle }}">
+
+      {%- render 'icon-heart' -%}
+
+      {%- render 'icon-wishlist-o' -%}
+
+    </a>
+  </div>
+  <div v-else>
+    <a
+      href="#{{ product.handle }}"
+      style="padding:8px;background: transparent;"
+      aria-label="Add to wishlist"
+      class="dt-sc-btn dT_WhishListAddBtn"
+      data-product_handle="{{ product.handle }}"
+      data-product-handle="{{ product.handle }}">
+
+      {%- render 'icon-heart' -%}
+
+      {%- render 'icon-wishlist-o' -%}
+    </a>
+  </div>
+{%- endif -%}

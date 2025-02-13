@@ -1,0 +1,83 @@
+{% if section.settings.enable_sidebar_cloud %}
+<div data-section-id="{{ section.id }}"  data-section-type="home-sidebar-tags" class="home-sidebar-tags">  
+  {% assign tags = section.settings.shop_by_tags_list | split: ',' %}        
+  <div class="widget widget-content" style ="background:{{section.settings.sidebar_bg_color}}">
+    {% if section.settings.title != blank %}
+    <h4><span>{{ section.settings.title }}</span></h4>
+    {% endif %}
+    <ul>
+      {% for t in tags %}
+      {% assign tag = t | strip %}
+      {% assign tag_value = tag | handleize %}      
+      <li>           
+        <a href="/collections/all?constraint={{tag_value}}">{{t}}</a>
+      </li>           
+      {% endfor %}            
+    </ul>
+  </div>
+  <style>
+    
+    .home-sidebar-tags ul li{ border:none !important; margin: 5px; float: left; }  
+    .home-sidebar-tags ul li a:hover,.home-sidebar-tags ul li:first-child a {background:{{ section.settings.primary_hover_btn }};color:{{ section.settings.primary_hover_btn_txt }}; }
+    .home-sidebar-tags ul li a { padding: 4px 10px; background:{{ section.settings.primary_btn_bg }};color:{{ section.settings.primary_btn_text }}; }
+ 
+  </style>
+</div>
+{% endif %}
+
+{% schema %}
+{
+"name": "Home sidebar tags",   
+"settings": [
+{
+"type": "color",
+"id": "sidebar_bg_color",
+"label": "Bg Color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "primary_btn_text",
+"label": "Tab Text",
+"default": "#fff"
+},
+{
+"type": "color",
+"id": "primary_btn_bg",
+"label": "Tab Bg",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "primary_hover_btn",
+"label": "Hover Bg",
+"default": "#f96bcf"
+},
+{
+"type": "color",
+"id": "primary_hover_btn_txt",
+"label": "Hover Bg Text",
+"default": "#fff"
+},
+{
+"type": "text",
+"id": "title",
+"label": "Heading"
+},
+{
+"type": "checkbox",
+"id": "enable_sidebar_cloud",
+"label": "Enable Tag Cloud",
+"default": true        
+},
+
+{
+"type": "textarea",
+"id": "shop_by_tags_list",
+"label": "Tags list",
+"info": "Separate by a comma, i.e \"Featured, New, Sale\"."
+}
+]
+}
+
+{% endschema %}

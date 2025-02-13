@@ -1,0 +1,81 @@
+{% assign sidebar_menu = section.settings.linklist %}
+{% if linklists[sidebar_menu].links.size > 0 %}
+  <div class="filter-panel-menu">
+    {%- if section.settings.filter_title != '' -%}
+      <h5 class="sidebar_title">{{ section.settings.filter_title }}</h5>
+    {%- endif -%}
+    <div class="filter-panel" id="accordian">
+      <ul>
+        {% for link in linklists[sidebar_menu].links %}
+          {% assign link_handle = link.title | handle %}
+          {% if linklists[link_handle] and linklists[link_handle].links.size > 0 %}
+            <li class="{% if link.active %}active{% endif %}">
+              <a href="{{ link.url }}">{{ link.title }}</a>
+              <ul>
+                {% for child in linklists[link_handle].links %}
+                  <li class="{% if child.active %}active{% endif %}">
+                    <a href="{{ child.url }}">{{ child.title }}</a>
+                    {% if child.links != blank %}
+                      <ul class="grandchild">
+                        {% for grandchild_link in child.links %}
+                          <li>
+                            <a href="{{ grandchild_link.url }}">{{ grandchild_link.title }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="{% if link.active %}active{% endif %}">
+              <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endif %}
+
+<style>
+  #shopify-section-index-sidebar-menu li a {
+    padding-left: 20px !important;
+    padding-bottom: 5px;
+  }
+  #shopify-section-index-sidebar-menu li {
+    padding: 0 !important;
+  }
+  #shopify-section-index-sidebar-menu li:before {
+    display: none;
+  }
+  #shopify-section-index-sidebar-menu li a:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: var(--DTPrimaryColor);
+  }
+</style>
+{% schema %}
+  {
+    "name": "Sidebar Menu",
+    "settings": [
+      {
+        "type": "text",
+        "id": "filter_title",
+        "label": "Title",
+        "default": "Custom Menu"
+      }, {
+        "type": "link_list",
+        "id": "linklist",
+        "label": "Menu"
+      }
+    ]
+  }
+{% endschema %}

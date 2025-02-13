@@ -1,0 +1,91 @@
+<div class="widget index-sidebar-type-collection">
+  <div class="dT_VProdWrapper widget index-sidebar-carousel">
+    {% if collections[section.settings.collection].products.size > 0 %} 
+    {% if section.settings.title != blank %}
+    <h5 class="sidebar_title">{{ section.settings.title }}</h5>
+    {% endif %}
+    {% endif %}
+
+    {% if section.settings.enable_slider %}
+    <div class="dt-sc-swiper-slider swiper-container navigation-bottom-center outside_element">
+      <div id="swiper-index-sidebar-slider" class="dT_VProdWrapperOther">  
+        <ul class="swiper-wrapper">                 
+          {% for product in collections[section.settings.collection].products limit: block.settings.limit %}
+          {% include 'product-grid-item', product: product, swiperSlideClass: 'swiper-slide', imageSize: 'large' %} 
+          {% else %}
+          {% for i in (1..5) %}
+          {% include 'empty-row' , product: product, swiperSlideClass: 'swiper-slide' %}
+          {% endfor %}
+          {% endfor %}
+        </ul>               
+        <div class="swiper-index-sidebar-arrows swiper-arrows">
+          <div id="swiper-index-sidebar-next" class="swiper-button-next dt-sc-btn"></div>
+          <div id="swiper-index-sidebar-prev" class="swiper-button-prev dt-sc-btn"></div>
+        </div>  
+      </div>                  
+    </div>  
+    {% else %}
+    <div class="dT_VProdWrapperOther">  
+      <ul class="product-list-style">                 
+        {% for product in collections[section.settings.collection].products limit: section.settings.limit %}
+        {% include 'product-grid-item', product: product, imageSize: 'compact' %} 
+        {% else %}
+        {% for i in (1..5) %}
+        {% include 'empty-row' , product: product %}
+        {% endfor %}
+        {% endfor %}
+      </ul>                   
+    </div>
+    {% endif %}
+  </div>  </div>
+{% schema %}
+{
+"name": "Sidebar Carousel",
+"settings": [
+{
+"type": "text",
+"id": "title",
+"label": "Heading"
+},
+{
+"type": "collection",
+"id": "collection",
+"label": "Collection"
+},
+{
+"type": "range",
+"id": "limit",
+"min": 1,
+"max": 5,
+"step": 1,
+"label": "Limit",
+"default": 5
+},
+{
+"type": "checkbox",
+"id": "enable_slider",
+"label": "Enable Carousel",
+"default": true
+}
+]
+}
+{% endschema %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var swiper = new Swiper('#swiper-index-sidebar-slider', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop:true,                          
+      autoHeight: true,                            
+      navigation: {
+        nextEl: '#swiper-index-sidebar-next',
+        prevEl: '#swiper-index-sidebar-prev'
+      },                                 
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      }
+    });
+  });  
+</script>

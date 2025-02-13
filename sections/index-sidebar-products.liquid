@@ -1,0 +1,61 @@
+ <div class="widget index-sidebar-type-collection">
+    {% if collections[section.settings.collection].products.size > 0 %} 
+    {% if section.settings.title != blank %}
+    <h5 class="sidebar_title">{{ section.settings.title }}</h5>  
+    {% endif %}
+    {% endif %}
+    <div class="dT_VProdWrapperOther">  
+      <ul class="product-list-style">                 
+        {% for product in collections[section.settings.collection].products limit: section.settings.limit %}
+        {% include 'product-grid-item', product: product, imageSize: 'compact', showButtons: 'true' %} 
+        {% else %}
+        {% for i in (1..5) %}
+        {% include 'empty-row' , product: product %}
+        {% endfor %}
+        {% endfor %}
+      </ul>                   
+    </div>
+  </div>
+
+<style>
+  .index-sidebar-type-collection .product-list-style .products .product-detail { padding: 0; order: -1; }
+  .index-sidebar-type-collection .product-list-style .products { grid-template-columns: auto 80px; }
+  .index-sidebar-type-collection .products .product-container .product-button,
+  .index-sidebar-type-collection .products .featured-tag,
+  .index-sidebar-type-collection .products .badge,
+  .index-sidebar-type-collection .products .offer_exist{ display:none; }
+  .index-sidebar-type-collection .products .product-detail .grid-link__title a{ font-size:16px;}
+  
+</style>
+{% schema %}
+  {
+    "name": "Sidebar products",
+    "settings": [
+  {
+  "type": "text",
+  "id": "title",
+  "label": "Heading"
+  },
+  {
+  "type": "collection",
+  "id": "collection",
+  "label": "Collection"
+  },
+  {
+  "type": "range",
+  "id": "limit",
+  "min": 1,
+  "max": 5,
+  "step": 1,
+  "label": "Limit",
+  "default": 2
+  }
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

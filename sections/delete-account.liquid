@@ -1,0 +1,107 @@
+<div class="section section--delete-account">
+  {% if customer %}
+    <div class="account-deletion-request">
+      <h1>Account Deletion Request</h1>
+
+      <div class="privacy-note">
+        <p>
+          <strong>Privacy and Data Protection:</strong>
+          We take your privacy seriously. If you wish to have your account and associated data deleted from our system, please fill out the form below.</p>
+      </div>
+      <div style="width: 60%;">
+        {% form 'contact' %}
+          {% if form.posted_successfully? %}
+            <p class="note form-success" style="font-size: 25px;">
+              Your request has been submitted. It will take 3 working days to process.
+            </p>
+          {% endif %}
+          {{ form.errors | default_errors }}
+
+          <div class="first-name">
+            <label for="first-name">Name</label>
+            <input
+              readonly
+              type="text"
+              name="contact[first_name]"
+              id="first-name"
+              value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" />
+          </div>
+          <div class="email">
+            <label for="email">Email</label>
+            <input
+              readonly
+              type="email"
+              name="contact[email]"
+              id="email"
+              value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}" />
+          </div>
+
+          <div class="message">
+            <label for="message">Reason Form Deletion</label>
+            <textarea name="contact[account_deletion_reason]" id="message"></textarea>
+            <p class="error-message" style="color: red;"></p>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="Submit Request" />
+          </div>
+        {% endform %}
+      </div>
+      <script>
+        document.querySelector('form[action="/contact#contact_form"]').addEventListener('submit', function(event) {
+          var reasonField = document.getElementById('message');
+          var errorMessage = document.querySelector('.error-message');
+
+          if (reasonField.value.trim() === '') {
+            event.preventDefault(); // Prevent the form from submitting
+            errorMessage.textContent = 'Please provide a reason for deletion.';
+          } else {
+            errorMessage.textContent = ''; // Clear the error message if the field is not empty
+          }
+        });
+      </script>
+
+      <h2>What Happens Next?</h2>
+
+      <ol>
+        <li>
+          <strong>Submission Confirmation:</strong>
+          Once you submit this form, you will receive a confirmation message on this page indicating that we have received your request.
+        </li>
+        <li>
+          <strong>Manual Review:</strong>
+          Our team will manually review your request to ensure its validity and authenticity. This may take up to 3 working days to complete.
+        </li>
+        <li>
+          <strong>Deletion:</strong>
+          Upon verification and approval, we will proceed to delete your account and all associated data from our system.
+        </li>
+        <li>
+          <strong>Confirmation:</strong>
+          You will receive an email confirmation once the deletion process is complete.
+        </li>
+      </ol>
+
+      <h2>Contact Us</h2>
+
+      <p>If you have any questions or concerns regarding your account deletion request, please feel free to reach out to our customer support team at info@holonkosher.com.</p>
+
+      <p>
+        <strong>Privacy Policy:</strong>
+        For more information on how we handle data privacy and personal information, please review our
+        <a href="/pages/mobile-app-privacy-policy">Privacy Policy</a>.</p>
+
+      <p>
+        <strong>Please Note:</strong>
+        We are committed to protecting your privacy. However, there may be certain data that we are legally required to retain for a specific period. We will ensure compliance with all relevant data protection laws and regulations.</p>
+
+      <p>Thank you for your understanding, and we appreciate your trust in us.</p>
+    </div>
+
+  {% else %}
+    <!-- Content for non-authenticated users -->
+    <p>Please
+      <a href="/account/login">login</a>
+      to access this content.</p>
+  {% endif %}
+</div>
