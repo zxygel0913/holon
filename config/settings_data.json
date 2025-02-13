@@ -10,8 +10,8 @@
 {
   "current": {
     "favicon": "shopify://shop_images/newlogo.png",
-    "preloader_enable": false,
-    "preloader": "shopify://shop_images/Holon-Logo-Blue.png",
+    "preloader_enable": true,
+    "preloader": "shopify://shop_images/newlogo.png",
     "header_font": "roboto_n4",
     "h1_size": 48,
     "h2_size": 40,
