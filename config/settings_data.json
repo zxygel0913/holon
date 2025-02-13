@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "favicon": "shopify://shop_images/Holon_Logo_Blue_61c883fa-4f8e-4a23-9b23-75be6bb4f465.png",
+    "favicon": "shopify://shop_images/newlogo.png",
     "preloader_enable": false,
     "preloader": "shopify://shop_images/Holon-Logo-Blue.png",
     "header_font": "roboto_n4",
