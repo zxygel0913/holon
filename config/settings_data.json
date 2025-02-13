@@ -199,7 +199,7 @@
           "header_phone": "718-336-7758",
           "header_contact": "#ffffff",
           "header_contact_hover": "#8cc342",
-          "logo": "shopify://shop_images/newlogo.png",
+          "logo": "shopify://shop_images/favicon.png",
           "logo_max_width": 160,
           "menu_align": "menu_bottom",
           "display_all_category": true,
@@ -255,7 +255,6 @@
               "footer_btn_bg": "#206469",
               "footer_btn_hover_color": "#206469",
               "footer_btn_hover_bg": "#206469",
-              "logo": "shopify://shop_images/newlogo.png",
               "footer_logo_height": 115,
               "container_width": 25,
               "column_alignment": "text-start"
