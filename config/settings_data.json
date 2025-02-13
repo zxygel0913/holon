@@ -317,6 +317,7 @@
           "footer_bg_clr": "#ffffff",
           "color_opacity": 1,
           "footer_bg_img": false,
+          "image_1": "shopify://shop_images/favicon.png",
           "show_footer_title": true,
           "footer_heading_clr": "#000000",
           "footer_txt_clr": "#848484",
