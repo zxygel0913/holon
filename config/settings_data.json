@@ -1,1 +1,1516 @@
-{"current":{"favicon":"shopify:\/\/shop_images\/Holon_Logo_Blue_61c883fa-4f8e-4a23-9b23-75be6bb4f465.png","preloader_enable":false,"preloader":"shopify:\/\/shop_images\/Holon-Logo-Blue.png","header_font":"roboto_n4","h1_size":48,"h2_size":40,"h4_size":20,"h5_size":18,"base_font":"roboto_n4","type_base_size":14,"type_base_size_tablet":14,"type_base_size_tablet_mobile":14,"heading_line_height":1.1,"body_line_height":1.7,"additional_font":"pacifico_n4","custom_font_script_1":"@import url('https:\/\/fonts.googleapis.com\/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');","custom_font_family_1":"'Roboto', sans-serif;","custom_font_script_2":"@import url('https:\/\/fonts.googleapis.com\/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');","custom_font_family_2":"'Roboto', sans-serif;","fullwidth_gap":3,"primary_color":"#0038b8","secondary_color":"#fad400","tertiary_color":"#848484","body_bg_color":"#f7f7f7","body_text_color":"#848484","overlay_color":"#000000","link_color":"#000000","link_hover_color":"#0038b8","heading_color":"#000000","success_color":"#0038b8","button_bg_color":"#0038b8","button_text_color":"#ffffff","button_bg_hover_color":"#0038b8","button_text_hover_color":"#fad400","button_border_color":"#ffffff","button_hover_border_color":"#ffffff","button_border_width":0,"blog_bg_color":"#ffffff","blog_link_color":"#0a0000","blog_link_hover_color":"#0038b8","blog_text_color":"#000000","blog_icon_color":"#0038b8","blog_button_bg_color":"#fad400","blog_button_text_color":"#000000","blog_button_bg_hover_color":"#0038b8","blog_link_hover_color_overlay":"#000000","blog_button_bg_color_overlay":"#fad400","blog_button_text_color_overlay":"#000000","blog_button_bg_hover_color_overlay":"#0038b8","form_bg":"#ffffff","title_image_enable":false,"use_breadcrumb":true,"breadcrumb_image":"shopify:\/\/shop_images\/groceries-img1_e3e6bf10-3880-4318-a1d2-1b1dd83a07d2.jpg","color_image_overlay":"#fad400","image_overlay_opacity":80,"breadcrumb_padding_top":60,"breadcrumb_padding_bottom":60,"show_product_swatches":true,"show_quick_shop_product_link":true,"show_quick_shop_desc":true,"secondary_image_use":true,"display_vendor":false,"enable_add_cart":true,"icon_alignment":"icon-center","display_color_variant":true,"display_item_size":true,"product_review":true,"sidebar_width":360,"sidebar_style":"list","index_sidebar_use":"both","collection_sidebar_use":"left-sidebar","sidebar_title_bg":"rgba(0,0,0,0)","sidebar_title_border":"#fad400","cart_notes_enable":true,"social_twitter_link":"#","social_facebook_link":"#","social_pinterest_link":"#","social_instagram_link":"#","share_facebook":true,"share_twitter":true,"share_pinterest":true,"share_google":true,"shipping_calculator":"Disabled","content":"<p>[29155]<\/p>","sections":{"header":{"type":"header","blocks":{"dd355812-e1f9-4fa0-aeb6-13246d1b6cd3":{"type":"promo_image","settings":{"mega_1":"collection","mega_columns":"three-column","row_reverse":false,"title_1":"","button_1":"","link_1":"","title_2":"","button_2":"","link_2":"","title_3":"","button_3":"","link_3":"","title_4":"","button_4":"","link_4":""}},"3b8cf368-f112-4e3e-8b3b-9c759fcd384f":{"type":"product","settings":{"mega_1":"shop","mega_columns":"four-column","row_reverse":false,"product1":"asparagus","product2":"cauliflower","product3":"chicken-boneless","product4":"cupsicum"}},"eee4ef3b-fb9b-4d4f-8816-c85cfdf3da3a":{"type":"promo_image","disabled":true,"settings":{"mega_1":"Kitchen Appliance","mega_columns":"four-column","row_reverse":false,"title_1":"","button_1":"","link_1":"","title_2":"","button_2":"","link_2":"","title_3":"","button_3":"","link_3":"","title_4":"","button_4":"","link_4":""}},"fa8ac781-4436-4498-a224-5352f85b5658":{"type":"promo_image","disabled":true,"settings":{"mega_1":"Groceries","mega_columns":"six-column","row_reverse":false,"title_1":"","button_1":"","link_1":"","title_2":"","button_2":"","link_2":"","title_3":"","button_3":"","link_3":"","title_4":"","button_4":"","link_4":""}}},"block_order":["dd355812-e1f9-4fa0-aeb6-13246d1b6cd3","3b8cf368-f112-4e3e-8b3b-9c759fcd384f","eee4ef3b-fb9b-4d4f-8816-c85cfdf3da3a","fa8ac781-4436-4498-a224-5352f85b5658"],"settings":{"full":true,"spacing_both_ends":true,"use_sticky_header":true,"use_sticky_mobile":true,"show_announcement":false,"hide_announcement_mobile":true,"home_page_only":true,"bg_color":"#0038b8","text_color":"#ffffff","text_hover_color":"#ffffff","text":"Now Delivering to Deal NJ!","link":"","announcement_height":40,"topbar_bg":"#848484","disable_topbar":true,"disable_topbar_mobile":false,"header_mail":"info@holonfoods.com","header_phone":"718-336-7758","header_contact":"#ffffff","header_contact_hover":"#0038b8","logo":"shopify:\/\/shop_images\/Holon_Logo_Blue_61c883fa-4f8e-4a23-9b23-75be6bb4f465.png","logo_max_width":160,"menu_align":"menu_bottom","display_all_category":true,"all_categories":"","show_header_social":true,"search_type":"search-box","enable_predictive_search":true,"social_icon_color":"#0038b8","social_icon_hover_color":"#ffffff","social_icon_bg":"#ffffff","social_icon_hover_bg":"#ebe5e5","show_account":true,"show_header_cart":true,"show_header_wishlist":true,"show_header_compare":false,"icon_color":"#0038b8","icon_hover_color":"#fad400","icon_bg":"rgba(0,0,0,0)","icon_hover_bg":"rgba(0,0,0,0)","ship_1_title":"asd","ship_1_subtitle":"asd","ship_2_title":"","ship_2_subtitle":"","shipping_title_clr":"#f7f7f7","shipping_subtitle_clr":"#f7f7f7","enable_menu_indicator":true,"pick_menu":"main-menu","show_secondary_menu":false,"secondary_menu":"main-menu","header_bg":"#ffffff","menu_bg":"#0038b8","menu_color":"#fbfbfb","menu_active_color":"#fad400","menu_active_bg":"rgba(0,0,0,0)","mega_menu_bg":"#ffffff","submenu_color":"#1a1a1a","submenu_hover_color":"#206469","font_size":18,"font_size_sub":16}},"footer":{"type":"footer","blocks":{"footer-4":{"type":"logo","settings":{"title":"","text":"","link_text":"Know more","url":"","footer_btn_color":"#206469","footer_btn_bg":"#206469","footer_btn_hover_color":"#206469","footer_btn_hover_bg":"#206469","logo":"shopify:\/\/shop_images\/Holon_Logo_Blue_61c883fa-4f8e-4a23-9b23-75be6bb4f465.png","footer_logo_height":115,"container_width":25,"column_alignment":"text-start"}},"footer-1":{"type":"menu","settings":{"title":"Help","menu":"footer","container_width":25,"column_alignment":"text-start"}},"footer-2":{"type":"menu","disabled":true,"settings":{"title":"Support","menu":"","container_width":15,"column_alignment":"text-start"}},"f7bb9efb-3b0b-4d63-9e67-2a7174a7a526":{"type":"menu","disabled":true,"settings":{"title":"Information","menu":"","container_width":15,"column_alignment":"text-start"}},"a3b463cf-db4c-44cb-8b73-8c9c1cdf4fb4":{"type":"address","settings":{"title":"Contact Us","footer_address":"527 Kings Hwy\nBrooklyn, NY 11223  USA","footer_contact_no":"718-645-1213","office_hours":"","footer_contact_id":"info@holonkosher.com","container_width":25,"column_alignment":"text-start"}}},"block_order":["footer-4","footer-1","footer-2","f7bb9efb-3b0b-4d63-9e67-2a7174a7a526","a3b463cf-db4c-44cb-8b73-8c9c1cdf4fb4"],"settings":{"full":true,"spacing_both_ends":true,"padding":"80,40","top_space":0,"footer_bg_clr":"#ffffff","color_opacity":1,"footer_bg_img":false,"show_footer_title":true,"footer_heading_clr":"#000000","footer_txt_clr":"#848484","footer_link_clr":"#848484","footer_link_hover_clr":"#84c225","footer__bottom_bg":"#000000","footer_color":"#ffffff","footer_link_hover":"#84c225","color_borders":"#e4e4e4","show_payment_icons":true,"show_copyright":true,"show_social":true,"social_placement":"with_newsletter","social_style":"with_brand_name","newsletter_placement":"default","footer_menu_style":"vertical","enable_inline_footer_menu":true,"footer":"main-menu","copyright_text":"","copyright_link":"","copyright_link_color":"#ffffff","copyright_link_color_hover":"#84c225"}},"modal-newsletter":{"type":"modal-newsletter","settings":{"enable_newsletter_modal":false,"dt_sc_cookie-expires":1,"dt_sc_cookie-modal-delay":"2000","overlay_background_color":"#000000","overlay_background_transparency":"0.8","block_text_align":"text-center","dt_sc_modal_bg_image":"shopify:\/\/shop_images\/wall-stone-background-2022-12-15-20-09-57-utc.jpg","enable_overlay":true,"background_color":"#ffffff","overlay_transparency":"0.9","form_style":"style-1","form_gap":"10px","dt_sc_cookie_sub_title":"","dt_sc_cookie-modal-title":"Get to know the latest offers","dt_sc_cookie-modal-content":"Subscribe and get notified at first on the latest update and offers!","dt_sc_newsletter_additional_content":"We do not spam","enable_social_icon":false,"section_title_color":"","section_sub_title_color":"","form_bg":"#ffffff","button_bg_color":"","button_text_color":"","button_hover_bg_color":"","button_hover_text_color":"","additional_text_color":"#000000","social_icon_color":"","social_icon_hover_color":""}},"gdpr-cookies":{"type":"gdpr-cookies","settings":{"show_gdpr":false,"style":"left","enable_box_shadow":false,"text":"By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.","accept":"Accept","decline":"Decline","bg_color":"#78b144","text_color":"#ffffff","button_bg_color":"#206469","button_text_color":"#ffffff","button_text_hover_color":"#000000","button_bg_hover_color":"#d8f3f5","button_padding":"10px 20px 10px 20px"}},"customer-purchased":{"type":"customer-purchased","settings":{"display_recent_purchase":true,"placement":"right","text":"Someone recently bought a"}},"index-sidebar-menu":{"type":"index-sidebar-menu","settings":{"filter_title":"Product Categories","linklist":"side-menu"}},"index-sidebar-promo":{"type":"index-sidebar-promo","settings":{"title":"","text":"","image":"shopify:\/\/shop_images\/img-1_7002e5a9-cc69-4a06-83d3-4cf2428035a1.webp","link_text":"","link":"","txt_color":""}},"index-sidebar-products":{"type":"index-sidebar-products","settings":{"title":"Featured Products","collection":"baby-food-formula","limit":4}},"index-sidebar-promo2":{"type":"index-sidebar-promo2","settings":{"title":"","text":"","link_text":"","link":"","txt_color":""}},"index-sidebar-quotes":{"type":"index-sidebar-quotes","blocks":{"f237abf6-2200-4b91-9c10-fa04f5d147e6":{"type":"quote","settings":{"quote":"<p>Ullamcorper malesuada proin libero nunc consequat sagittis id consectetur purus un rit ido.<\/p>","author":"Christina","designation":"Art Director","star":"0"}},"435186c1-dde8-4cda-b416-b89c1ad6b8bb":{"type":"quote","settings":{"quote":"<p>Nisl suscipit adipiscing bibendum est ultricies integer. Mi in nulla posuere sollicitudin aliquam. <\/p>","author":"Marry Crome","designation":"Analyst","star":"0"}}},"block_order":["f237abf6-2200-4b91-9c10-fa04f5d147e6","435186c1-dde8-4cda-b416-b89c1ad6b8bb"],"settings":{"title":"Testimonials"}},"index-sidebar-carousel":{"type":"index-sidebar-carousel","settings":{"title":"","collection":"prepared-foods","limit":5,"enable_slider":true}},"index-sidebar-blog-list":{"type":"index-sidebar-blog-list","settings":{"title":"Featured Posts","blog":"","post_limit":4,"show_description":false,"show_tags":false,"show_button":false,"show_comments":false,"blog_show_author":false,"blog_show_date":false}},"index-sidebar-icon-text":{"type":"index-sidebar-icon-text","blocks":{"31855a48-132d-4f6f-8073-090be50f505a":{"type":"text","settings":{"icon":"shopify:\/\/shop_images\/1.png","title":"Same Day Delivery","title_color":"#000000","sub_title":"Same-day local delivery to your door","sub_title_color":"#848484","link":""}},"18747a91-eabe-4e62-9811-199656d3a8c1":{"type":"text","settings":{"icon":"shopify:\/\/shop_images\/2.png","title":"Customer Service Support","title_color":"#000000","sub_title":"Live agents & real-time order tracking","sub_title_color":"#848484","link":""}},"d71df5b2-141d-4f77-84cc-5b13599cbac5":{"type":"text","settings":{"icon":"shopify:\/\/shop_images\/5.png","title":"Large Selection","title_color":"#000000","sub_title":"Local & Imported Foods","sub_title_color":"#848484","link":""}}},"block_order":["31855a48-132d-4f6f-8073-090be50f505a","18747a91-eabe-4e62-9811-199656d3a8c1","d71df5b2-141d-4f77-84cc-5b13599cbac5"],"settings":{"enable_icon":true,"bg_color":"#ffffff"}},"index-our-brands":{"type":"index-our-brands","blocks":{"aeeb4759-0ee5-4f9e-a526-3efe3f181767":{"type":"logo_image","settings":{"link":""}},"3d8d9c18-62e3-4021-9089-115a7ee9a532":{"type":"logo_image","settings":{"link":""}},"9d30e3fe-6e63-46a9-ab78-50fd1e67049d":{"type":"logo_image","settings":{"link":""}},"8ec2b82b-9947-47bc-b0c9-7d1ee4696889":{"type":"logo_image","settings":{"link":""}},"d59780b5-9218-4b89-aa83-916d7b5b02d5":{"type":"logo_image","settings":{"link":""}},"c8dad2fb-8212-408f-8920-157bd320d3af":{"type":"logo_image","settings":{"link":""}}},"block_order":["aeeb4759-0ee5-4f9e-a526-3efe3f181767","3d8d9c18-62e3-4021-9089-115a7ee9a532","9d30e3fe-6e63-46a9-ab78-50fd1e67049d","8ec2b82b-9947-47bc-b0c9-7d1ee4696889","d59780b5-9218-4b89-aa83-916d7b5b02d5","c8dad2fb-8212-408f-8920-157bd320d3af"],"settings":{"title":"Logo list"}},"index-sidebar-tags":{"type":"index-sidebar-tags","settings":{"sidebar_bg_color":"#ffffff","primary_btn_text":"#000000","primary_btn_bg":"#f4f4f4","primary_hover_btn":"#84c225","primary_hover_btn_txt":"#ffffff","title":"","enable_sidebar_cloud":false,"shop_by_tags_list":""}},"home-newsletter":{"type":"home-newsletter","settings":{"full":true,"spacing_both_ends":true,"padding":"40,40","margin":"60,0","show_background_image":false,"background_style":"default","background_color":"#84c225","enable_overlay":true,"overlay_transparency":"1","section_heading":"Newsletter","section_sub_heading":"","section_description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.","section_button_text":"","section_button_link":"","section_heading_color":"#ffffff","section_sub_heading_color":"#ffffff","section_description_color":"#ffffff","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-start","section_position":"text-center","newsletter_form_width":"100%","newsletter_description":"","news_style":"default","reverse_column":false,"space_in_between":"10px","newsletter_box_border_color":"#ffffff","newsletter_box_bg_color":"#84c225","newsletter_box_border_focus_color":"#ffffff","newsletter_button_bg_color":"#ffffff","newsletter_button_text_color":"#000000","newsletter_button_hover_bg_color":"#fad400","newsletter_button_hover_text_color":"#000000","newsletter_description_color":"#ffffff","social_icon_color":"#ffffff","social_icon_hover_color":"#fad400","custom_class_name":""}},"top-bar":{"type":"top-bar","settings":{"full":true,"spacing_both_ends":true,"display_top_adv_bar":false,"display_top_adv_bar_mobile":true,"display_top_bar":false,"show_header_currency":false,"notification_bar_bg":"#ffffff","stripe_icon":"#84c225","stripe_icon_color":"#000000","stripe_icon_hover":"#fad400","stripe_icon_hover_color":"#000000","notification_discount":"50% OFF","notification_discount_clr":"#000000","notification_discount_txt":"Discount","notification_discount_text_clr":"#84c225","notification_text":"Long Weekend Sale Up to 50% OFF","notification_text_clr":"#000000","notification_promo_txt":"Enter Promotion Code","notification_promo_txt_clr":"#000000","notification_promo_code":"Sale2017","notification_promo_code_clr":"#000000","notification_linktxt":"Shop Now","top_bar_btn_bg":"#fad400","top_bar_btn_txt":"#000000","top_bar_btn_hoverbg":"#84c225","top_bar_btn_hovertxt":"#ffffff","header_notification_link":"\/collections\/all","top_bar_bg":"#605e5e","top_bar_text":"#f7f7f7","top_bar_links":"#ffffff","top_bar_link_hover":"#fad400","top_border_between_bars":"#ffffff","header_phone_value":"0000 - 123 456789","header_mail_value":"info@example.com","store_location":"Store Location","store_location_link":"","track_your_order":"Track Your Order","track_your_order_link":"","currency_icon":"#ffffff","currency_icon_hover":"#fad400","currency_bg":"#ffffff","currency_link":"#000000"}},"index-sidebar-products2":{"type":"index-sidebar-products2","settings":{"title":"Top Sellers","collection":"dairy-eggs","limit":4}},"inner-page-overlay-section":{"type":"inner-page-overlay-section","blocks":{"4231a1aa-0615-4264-8c32-06f3b02fc2ac":{"type":"content","settings":{"image":"shopify:\/\/shop_images\/carousel5_ac326fde-b95a-4246-8074-d059a458cb73.jpg","title":"Farm Fresh Vegetables","sub_title":"","text":"Sed vestibulum nulla elementum auctor tincidunt. Aliquam sit amet cursus mauris. Sed vitae mattis ipsum. Vestibulum enim nulla, sollicitudin ac hendrerit nec, tempor quis nisl"}},"9defccb6-0aeb-4e33-8f99-d1b80f995ac4":{"type":"content","settings":{"image":"shopify:\/\/shop_images\/deals.jpg","title":"Bean Coffee Seed","sub_title":"","text":"Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Vel pharetra vel turpis nunc. Rhoncus mattis rhoncus urna neque viverra justo nec"}},"bc85afe2-5049-455f-9b80-fe1d1512d78e":{"type":"content","settings":{"image":"shopify:\/\/shop_images\/ripe-red-strawberries-in-a-white-bowl.jpg","title":"Organic Fruits","sub_title":"","text":"Sit amet venenatis urna cursus eget. Tellus cras adipiscing enim eu turpis egestas pretium. Cras semper auctor neque vitae tempus quam. Vel elit scelerisque mauris pellentesque"}}},"block_order":["4231a1aa-0615-4264-8c32-06f3b02fc2ac","9defccb6-0aeb-4e33-8f99-d1b80f995ac4","bc85afe2-5049-455f-9b80-fe1d1512d78e"],"settings":{"enable":false,"full":false,"spacing_both_ends":false,"padding":"0,0","margin":"0,60","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"","overlay_transparency":"0.5","section_heading":"","section_sub_heading":"","section_description":"","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","grid":"3","overlay_style_height":300,"overlay_style_height_laptop":300,"overlay_style_height_mobile":300,"block_bg":"#fad400","block_heading_color":"","block_sub_heading_color":"","block_description_color":"#000000"}},"inner-page-masonary-overlay-section":{"type":"inner-page-masonary-overlay-section","blocks":{"36011c0b-ac1e-4eb1-83af-52a9260b8abd":{"type":"content","settings":{"title":"Heading","sub_title":"Sub Heading","text":"Sed vestibulum nulla elementum auctor tincidunt. Aliquam sit amet cursus mauris. Sed vitae mattis ipsum. Vestibulum enim nulla, sollicitudin ac hendrerit nec, tempor quis nisl"}}},"block_order":["36011c0b-ac1e-4eb1-83af-52a9260b8abd"],"settings":{"enable":true,"full":false,"spacing_both_ends":false,"padding":"0,0","margin":"0,0","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"","overlay_transparency":"0.5","section_heading":"inner-page overlay section","section_sub_heading":"Sub Heading","section_description":"Use this text to share the information which you like!.","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","primary_title":"Title","primary_sub_title":"Sub title","primary_description":"Short description","primary_button_text":"","primary_button_link":"","main_banner_height":600,"main_banner_height_lap":550,"main_banner_height_tab":500,"main_banner_height_mobile":450,"block_bg":"","block_heading_color":"","block_sub_heading_color":"","block_description_color":"","primary_button_bg_color":"","primary_button_text_color":"","primary_button_hover_bg_color":"","primary_button_hover_text_color":""}},"inner-page-partial-overlay-section":{"type":"inner-page-partial-overlay-section","settings":{"enable":true,"full":false,"spacing_both_ends":false,"padding":"0,0","margin":"0,0","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"","overlay_transparency":"0.5","section_heading":"inner-page partial overlay section","section_sub_heading":"Sub Heading","section_description":"Use this text to share the information which you like!.","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","grid":"2","overlay_style_height":500,"overlay_style_height_laptop":550,"overlay_style_height_tab":600,"overlay_style_height_mobile":650,"block_bg":"","block_heading_color":"","block_description_color":"","block_price_bg_color":"","block_price_color":"","block_icon_color":"","block_icon_bg_color":""}},"inner-page-list-with-image-section":{"type":"inner-page-list-with-image-section","blocks":{"3de76814-8c74-4514-ae83-5939490ea69f":{"type":"content","settings":{"sub_title":"ALWAYS FRESH"}},"2d280604-85c8-458b-b07c-2569143ed45b":{"type":"content","settings":{"sub_title":"HEALTHY KOSHER FOOD"}},"14e89eb8-d8d0-4ee6-ac6c-74737144c9fe":{"type":"content","settings":{"sub_title":"ISRAELI MADE PRODUCTS"}},"1d7e05bd-6b85-4cd0-b49d-afe106d19d35":{"type":"content","settings":{"sub_title":"TOP QUALITY PRODUCTS AND SERVICE"}}},"block_order":["3de76814-8c74-4514-ae83-5939490ea69f","2d280604-85c8-458b-b07c-2569143ed45b","14e89eb8-d8d0-4ee6-ac6c-74737144c9fe","1d7e05bd-6b85-4cd0-b49d-afe106d19d35"],"settings":{"enable":true,"full":false,"spacing_both_ends":false,"padding":"100,80","margin":"0,0","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"#e9e9e9","overlay_transparency":"0.5","section_heading":"","section_sub_heading":"","section_description":"","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","title":"About Holon Kosher Foods","text":"Welcome to Holon Kosher Foods! We are a family-owned and operated grocery store located in the heart of Brooklyn, NY. For over 30 years, we have been proud to serve our community with the highest quality kosher products and exceptional customer service.\n<br><br>\nAt Holon Kosher Foods, we believe that good food brings people together. That's why we offer a diverse selection of Israeli and international foods, including fresh produce, meats, bakery items, and prepared foods made in-house by our talented chefs. Whether you're looking for a quick bite on-the-go or ingredients for a gourmet meal, we have everything you need to make your next meal unforgettable.\n<br><br>\nWe take pride in our commitment to quality and freshness. All of our products are certified kosher, and we work with the best suppliers to ensure that we only offer the finest products available. Our team is passionate about food, and we are always happy to share our expertise and recommendations with our customers.\n<br><br>\nWe are also excited to offer a convenient online store, where you can shop our full range of products from the comfort of your home. Whether you're shopping for local delivery or nationwide shipping, we make it easy to get the products you need when you need them.\n<br><br>\nThank you for choosing Holon Kosher Foods. We look forward to serving you!","block_heading_color":"","block_description_color":"#151616","block_list_icon_color":"","block_list_color":""}},"inner-page-content-with-image-section":{"type":"inner-page-content-with-image-section","settings":{"enable":true,"full":false,"spacing_both_ends":false,"padding":"0,0","margin":"0,0","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"","overlay_transparency":"0.5","section_heading":"List with image section 2","section_sub_heading":"Sub Heading","section_description":"Use this text to share the information which you like!.","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","block_bg":"","block_heading_color":"","block_description_color":"","block_icon_color":""}},"inner-page-image-with-icon-section":{"type":"inner-page-image-with-icon-section","settings":{"enable":true,"full":false,"spacing_both_ends":false,"padding":"0,0","margin":"0,0","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"","overlay_transparency":"0.5","section_heading":"Image with icon section","section_sub_heading":"Sub Heading","section_description":"Use this text to share the information which you like!.","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","grid":"3","block_heading_color":"","block_description_color":"","block_icon_bg_color":"","block_icon_color":"","block_icon_bg_hover_color":"","block_icon_hover_color":""}},"inner-page-image-with-icon-section-type-2":{"type":"inner-page-image-with-icon-section-type-2","settings":{"enable":true,"full":false,"spacing_both_ends":false,"padding":"0,0","margin":"0,0","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"","overlay_transparency":"0.5","section_heading":"Image with icon section type 2","section_sub_heading":"Sub Heading","section_description":"Use this text to share the information which you like!.","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","main_title":"Heading","sub_title":"Sed vestibulum nulla elementum auctor tincidunt. Aliquam sit amet cursus mauris. Sed vitae mattis ipsum.","block_heading_color":"","block_description_color":"","block_icon_bg_color":"","block_icon_color":"","block_icon_bg_hover_color":"","block_icon_hover_color":""}},"inner-page-icon-text-section":{"type":"inner-page-icon-text-section","settings":{"enable":true,"full":false,"spacing_both_ends":false,"padding":"0,0","margin":"0,0","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"","overlay_transparency":"0.5","section_heading":"Icon with text","section_sub_heading":"Sub Heading","section_description":"Use this text to share the information which you like!.","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","column":"four-column","block_heading_color":"","block_description_color":"","block_image_bg_color":"","block_image_bg_hover_color":""}},"inner-page-team-section":{"type":"inner-page-team-section","settings":{"enable":true,"full":false,"spacing_both_ends":false,"padding":"0,0","margin":"0,0","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"","overlay_transparency":"0.5","section_heading":"inner-page our team","section_sub_heading":"Sub Heading","section_description":"Use this text to share the information which you like!.","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","column":"four-column","block_heading_color":"","block_designation_color":"","block_bg":"","block_social_icon_bg_color":"","block_social_icon_color":"","block_social_icon_hover_bg_color":"","block_social_icon_hover_color":""}},"inner-page-info-box-section":{"type":"inner-page-info-box-section","settings":{"enable":false,"full":false,"spacing_both_ends":false,"padding":"0,0","margin":"100,70","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"","overlay_transparency":"0.5","section_heading":"","section_sub_heading":"","section_description":"","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","heading":"Join Us :","sub_heading":"let's get our fresh Farm","text":"","button_text":"Read More","button_link":"","block_bg":"#78b144","block_border":"","block_heading_color":"","block_sub_heading_color":"","block_description_color":"#000000","block_button_bg_color":"#84c225","block_button_text_color":"#f7f7f7","block_button_hover_bg_color":"#ffffff","block_button_hover_text_color":"#84c225"}},"inner-page-icon-box-section":{"type":"inner-page-icon-box-section","blocks":{"57b0961b-4be7-4178-978a-f99cf7b50b3c":{"type":"content","settings":{"font_icon":"fa fa-leaf","title":"Highest Standard","text":"Vestibulum enim nulla, sollicitudin ac hendrerit nec, tempor quis nisl. Sed vestibulum nulla elementum auctor tincidunt. Aliquam sit amet cursus mauris. Sed vitae mattis ipsum.","reverse_column":false}},"52f62d55-acad-4956-a557-ceb1e78bc437":{"type":"content","settings":{"font_icon":"fa fa-tint","title":"Fair Price","text":"Sed vestibulum nulla elementum auctor tincidunt. Aliquam sit amet cursus mauris. Sed vitae mattis ipsum. Vestibulum enim nulla, sollicitudin ac hendrerit nec, tempor quis nisl.","reverse_column":false}},"3439aa53-55f7-4d23-8401-a6084277a53d":{"type":"content","settings":{"font_icon":"fa fa-globe","title":"Customer Satisfaction","text":"Aliquam sit amet cursus mauris. Sed vitae mattis ipsum. Vestibulum enim nulla, sollicitudin ac hendrerit nec, tempor quis nisl. Sed vestibulum nulla elementum auctor tincidunt.","reverse_column":false}}},"block_order":["57b0961b-4be7-4178-978a-f99cf7b50b3c","52f62d55-acad-4956-a557-ceb1e78bc437","3439aa53-55f7-4d23-8401-a6084277a53d"],"settings":{"enable":false,"full":false,"spacing_both_ends":false,"padding":"60,0","margin":"0,100","show_background_image":false,"background_style":"default","enable_overlay":true,"background_color":"#e9e9e9","overlay_transparency":"1","section_heading":"","section_sub_heading":"","section_description":"","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","grid":"3","block_heading_color":"","block_description_color":"","block_icon_bg_color":"","block_icon_color":"","block_icon_bg_hover_color":"","block_icon_hover_color":""}},"inner-page-number-counter-section":{"type":"inner-page-number-counter-section","settings":{"enable":true,"full":false,"spacing_both_ends":false,"padding":"0,0","margin":"0,0","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"","overlay_transparency":"0.5","section_heading":"Number Counter","section_sub_heading":"Sub Heading","section_description":"Use this text to share the information which you like!.","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","grid":"4","column_gap":"30","counter_style":"grid","vertical_position":"vertical-top","block_text_align":"text-start","reverse_column":false,"enable_boxed":false,"enable_overall_border":false,"border_radius":"0","icon_border_radius":"0px","block_icon_outer_size":"75","block_icon_size":"50","enable_box_shadow":false,"block_bg_color":"","block_icon_border_color":"","block_icon_bg_color":"","block_icon_color":"","block_title_color":"","block_text_color":"","block_value_color":"","block_value_text_color":"","block_border_color":""}},"inner-page-brand-logos":{"type":"inner-page-brand-logos","settings":{"enable":false,"full":true,"spacing_both_ends":true,"padding":"0,0","margin":"120,0","show_background_image":false,"background_style":"default","enable_overlay":true,"background_color":"#ffffff","overlay_transparency":"1","section_heading":"","section_sub_heading":"","section_description":"","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","grid":"3","block_style":"style-2","enable_box_shadow":false,"column_gap":"30","border_radius":"0","block_border_color":"#4f8a10","block_background_color":"#fad400","enable_slider":true,"enable_auto_height":true,"items_per_view":6,"slider_autoplay":0,"dots":false,"carousel_pagination_alignment":"center_pagination","arrows":false,"nav_arrow_position":"navigation-bottom-center","center_nav_arrow_alignment":"outside_container","navigation_button_color":"","navigation_button_icon_color":"","navigation_button_hover_color":"","navigation_button_hover_icon_color":"","navigation_dot_color":"","navigation_dot_active_color":""}},"inner-page-testimonials-section":{"type":"inner-page-testimonials-section","blocks":{"2f245650-32b5-4366-8864-f1f2f085bfa5":{"type":"content","settings":{"quote":"<p>Ut porttitor leo a diam sollicitudin tempor id eu nisl. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat. Dui nunc mattis enim ut tellus. Diam maecenas ultricies mi eget mauris pharetra et. Lorem dolor sed viverra ipsum nunc. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Tellus elementum sagittis vitae et leo duis ut. A lacus vestibulum sed arcu non odio.<br\/><br\/><\/p>","author":"Catherin","job":"Professor","star":"3"}},"d2cd92a8-3d98-44fb-83ab-eb9346800061":{"type":"content","settings":{"quote":"<p>Auctor elit sed vulputate mi sit amet mauris. Felis eget nunc lobortis mattis. In fermentum posuere urna nec tincidunt. Vel pharetra vel turpis nunc. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Vitae justo eget magna fermentum iaculis eu non diam. Hac habitasse platea dictumst quisque sagittis purus sit. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Neque volutpat ac tincidunt vitae sem. <\/p>","author":"Regina","job":"Artist","star":"3"}}},"block_order":["2f245650-32b5-4366-8864-f1f2f085bfa5","d2cd92a8-3d98-44fb-83ab-eb9346800061"],"settings":{"enable":false,"full":false,"spacing_both_ends":false,"padding":"0,0","margin":"0,0","show_background_image":false,"background_style":"default","enable_overlay":false,"background_color":"#ffffff","overlay_transparency":"1","section_heading":"","section_sub_heading":"","section_description":"","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","grid":"1","block_style":"style_1","boxed_styles":"overall_boxed","enable_box_shadow":false,"reverse_column":false,"text_position":"text-start","quote_style":"quote-icon-in-content","author_info_style":"style_1","border_radius":"0","boxed_border_radius":"0","column_gap":"30","content_width":"20\/80","lap_content_width":"20\/80","vertical_position":"vertical-top","testimonial_border_color":"#e9e9e9","testimonial_background_color":"#ffffff","testimonial_content_color":"#848484","testimonial_review_color":"#fad400","testimonial_author_text_color":"","testimonial_author_designation_color":"","testimonial_author_separator_color":"","testimonial_quote_icon_color":"#84c225","enable_slider":true,"enable_auto_height":true,"items_per_view":2,"slider_autoplay":0,"dots":false,"carousel_pagination_alignment":"center_pagination","carousel_pagination_bottom_alignment":"inside_element","arrows":false,"nav_arrow_position":"navigation-bottom-center","center_nav_arrow_alignment":"inside_container","navigation_button_color":"","navigation_button_icon_color":"","navigation_button_hover_color":"","navigation_button_hover_icon_color":"","navigation_dot_color":"","navigation_dot_active_color":""}},"faq-template":{"type":"faq-template","settings":{"full":false,"spacing_both_ends":false,"section_heading":"FAQ Block","section_sub_heading":"Sub Heading","section_description":"Use this text to share the information which you like!.","section_button_text":"","section_button_link":"","section_heading_color":"","section_sub_heading_color":"","section_description_color":"","section_button_bg_color":"","section_button_text_color":"","section_button_hover_bg_color":"","section_button_hover_text_color":"","heading_position":"text-center","block_style":"default-style","text_position":"text-start","border_radius":"0","enable_box_shadow":false,"enable_heading_icons":false,"faq_icon_size":"30","enable_segmented_layout":false,"segmented_layout_gap":"15","faq_heading_color":"","faq_heading_bg_color":"","faq_content_color":"","faq_content_bg_color":"","custom_class_name":""}},"modal-zipcode":{"type":"modal-zipcode","settings":{"zipcode_title":"Welcome to Holon Kosher Foods!","zipcode_sub_title":"We offer same-day delivery to local customers and shipping via carriers to non-locals. Please enter your zip code below to check for availability.","netzbiz_link":"https:\/\/www.holonfoods.com\/","netzbiz_message":"Great, we ship to you!","shopify_message":"Great, we deliver to you!","enable_newsletter_modal":false,"dt_sc_cookie-expires":1,"dt_sc_cookie-modal-delay":"5000","overlay_background_color":"","overlay_background_transparency":"0.75","block_text_align":"text-center","enable_overlay":false,"background_color":"","overlay_transparency":"0.5","form_style":"style-1","form_gap":"10px","dt_sc_cookie_sub_title":"Huge Discount","dt_sc_cookie-modal-title":"JOIN NEWSLETTER","dt_sc_cookie-modal-content":"Get Upto 20% Off on your order.","dt_sc_newsletter_additional_content":"Signup for exclusive offers & discounts","enable_social_icon":false,"section_title_color":"","section_sub_title_color":"","form_bg":"","button_bg_color":"","button_text_color":"","button_hover_bg_color":"","button_hover_text_color":"","additional_text_color":"","social_icon_color":"","social_icon_hover_color":""}}},"content_for_index":[],"blocks":{"753555524262350086415":{"type":"shopify:\/\/apps\/izyunit-price-per-unit\/blocks\/izyunit\/8a1a3018-8abb-49c2-900d-6604c0eb291d","disabled":false,"settings":{}},"14479319785270113485":{"type":"shopify:\/\/apps\/zapiet-pickup-delivery\/blocks\/app-embed\/5599aff0-8af1-473a-a372-ecd72a32b4d5","disabled":false,"settings":{}},"6326688704511773616":{"type":"shopify:\/\/apps\/advance_reorder_repeat_order\/blocks\/adv-block\/2dd67710-95db-4aa2-93c7-6a6c6f57d67f","disabled":false,"settings":{}},"13768625480086291342":{"type":"shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a","disabled":false,"settings":{}},"15683396631634586217":{"type":"shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b","disabled":false,"settings":{"button_color":"#0038b8","button_icon":"chat_bubble","button_text":"chat_with_us","button_horizontal_position":"bottom_left","button_vertical_position":"lowest","greeting_message":"👋 Hi, message us with any questions. We're happy to help!"}}}}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "favicon": "shopify://shop_images/favicon.png",
+    "preloader_enable": true,
+    "preloader": "shopify://shop_images/favicon.png",
+    "header_font": "roboto_n4",
+    "h1_size": 48,
+    "h2_size": 40,
+    "h4_size": 20,
+    "h5_size": 18,
+    "base_font": "roboto_n4",
+    "type_base_size": 14,
+    "type_base_size_tablet": 14,
+    "type_base_size_tablet_mobile": 14,
+    "heading_line_height": 1.1,
+    "body_line_height": 1.7,
+    "additional_font": "pacifico_n4",
+    "custom_font_script_1": "@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');",
+    "custom_font_family_1": "'Roboto', sans-serif;",
+    "custom_font_script_2": "@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');",
+    "custom_font_family_2": "'Roboto', sans-serif;",
+    "fullwidth_gap": 3,
+    "primary_color": "#8cc342",
+    "secondary_color": "#fad400",
+    "tertiary_color": "#848484",
+    "body_bg_color": "#f7f7f7",
+    "body_text_color": "#848484",
+    "overlay_color": "#000000",
+    "link_color": "#000000",
+    "link_hover_color": "#8cc342",
+    "heading_color": "#000000",
+    "success_color": "#8cc342",
+    "button_bg_color": "#8cc342",
+    "button_text_color": "#ffffff",
+    "button_bg_hover_color": "#8cc342",
+    "button_text_hover_color": "#fad400",
+    "button_border_color": "#ffffff",
+    "button_hover_border_color": "#ffffff",
+    "button_border_width": 0,
+    "blog_bg_color": "#ffffff",
+    "blog_link_color": "#0a0000",
+    "blog_link_hover_color": "#8cc342",
+    "blog_text_color": "#000000",
+    "blog_icon_color": "#8cc342",
+    "blog_button_bg_color": "#fad400",
+    "blog_button_text_color": "#000000",
+    "blog_button_bg_hover_color": "#8cc342",
+    "blog_link_hover_color_overlay": "#000000",
+    "blog_button_bg_color_overlay": "#fad400",
+    "blog_button_text_color_overlay": "#000000",
+    "blog_button_bg_hover_color_overlay": "#8cc342",
+    "form_bg": "#ffffff",
+    "title_image_enable": false,
+    "use_breadcrumb": true,
+    "breadcrumb_image": "shopify://shop_images/groceries-img1_e3e6bf10-3880-4318-a1d2-1b1dd83a07d2.jpg",
+    "color_image_overlay": "#fad400",
+    "image_overlay_opacity": 80,
+    "breadcrumb_padding_top": 60,
+    "breadcrumb_padding_bottom": 60,
+    "show_product_swatches": true,
+    "show_quick_shop_product_link": true,
+    "show_quick_shop_desc": true,
+    "secondary_image_use": true,
+    "display_vendor": false,
+    "enable_add_cart": true,
+    "icon_alignment": "icon-center",
+    "display_color_variant": true,
+    "display_item_size": true,
+    "product_review": true,
+    "sidebar_width": 360,
+    "sidebar_style": "list",
+    "index_sidebar_use": "both",
+    "collection_sidebar_use": "left-sidebar",
+    "sidebar_title_bg": "rgba(0,0,0,0)",
+    "sidebar_title_border": "#fad400",
+    "cart_notes_enable": true,
+    "social_twitter_link": "#",
+    "social_facebook_link": "#",
+    "social_pinterest_link": "#",
+    "social_instagram_link": "#",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "share_google": true,
+    "shipping_calculator": "Disabled",
+    "content": "<p>[29155]</p>",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "dd355812-e1f9-4fa0-aeb6-13246d1b6cd3": {
+            "type": "promo_image",
+            "settings": {
+              "mega_1": "collection",
+              "mega_columns": "three-column",
+              "row_reverse": false,
+              "title_1": "",
+              "button_1": "",
+              "link_1": "",
+              "title_2": "",
+              "button_2": "",
+              "link_2": "",
+              "title_3": "",
+              "button_3": "",
+              "link_3": "",
+              "title_4": "",
+              "button_4": "",
+              "link_4": ""
+            }
+          },
+          "3b8cf368-f112-4e3e-8b3b-9c759fcd384f": {
+            "type": "product",
+            "settings": {
+              "mega_1": "shop",
+              "mega_columns": "four-column",
+              "row_reverse": false,
+              "product1": "asparagus",
+              "product2": "cauliflower",
+              "product3": "chicken-boneless",
+              "product4": "cupsicum"
+            }
+          },
+          "eee4ef3b-fb9b-4d4f-8816-c85cfdf3da3a": {
+            "type": "promo_image",
+            "disabled": true,
+            "settings": {
+              "mega_1": "Kitchen Appliance",
+              "mega_columns": "four-column",
+              "row_reverse": false,
+              "title_1": "",
+              "button_1": "",
+              "link_1": "",
+              "title_2": "",
+              "button_2": "",
+              "link_2": "",
+              "title_3": "",
+              "button_3": "",
+              "link_3": "",
+              "title_4": "",
+              "button_4": "",
+              "link_4": ""
+            }
+          },
+          "fa8ac781-4436-4498-a224-5352f85b5658": {
+            "type": "promo_image",
+            "disabled": true,
+            "settings": {
+              "mega_1": "Groceries",
+              "mega_columns": "six-column",
+              "row_reverse": false,
+              "title_1": "",
+              "button_1": "",
+              "link_1": "",
+              "title_2": "",
+              "button_2": "",
+              "link_2": "",
+              "title_3": "",
+              "button_3": "",
+              "link_3": "",
+              "title_4": "",
+              "button_4": "",
+              "link_4": ""
+            }
+          }
+        },
+        "block_order": [
+          "dd355812-e1f9-4fa0-aeb6-13246d1b6cd3",
+          "3b8cf368-f112-4e3e-8b3b-9c759fcd384f",
+          "eee4ef3b-fb9b-4d4f-8816-c85cfdf3da3a",
+          "fa8ac781-4436-4498-a224-5352f85b5658"
+        ],
+        "settings": {
+          "full": true,
+          "spacing_both_ends": true,
+          "use_sticky_header": true,
+          "use_sticky_mobile": true,
+          "show_announcement": false,
+          "hide_announcement_mobile": true,
+          "home_page_only": true,
+          "bg_color": "#8cc342",
+          "text_color": "#ffffff",
+          "text_hover_color": "#ffffff",
+          "text": "Now Delivering to Deal NJ!",
+          "link": "",
+          "announcement_height": 40,
+          "topbar_bg": "#848484",
+          "disable_topbar": true,
+          "disable_topbar_mobile": false,
+          "header_mail": "info@holonfoods.com",
+          "header_phone": "718-336-7758",
+          "header_contact": "#ffffff",
+          "header_contact_hover": "#8cc342",
+          "logo": "shopify://shop_images/favicon.png",
+          "logo_max_width": 160,
+          "menu_align": "menu_bottom",
+          "display_all_category": true,
+          "all_categories": "",
+          "show_header_social": true,
+          "search_type": "search-box",
+          "enable_predictive_search": true,
+          "social_icon_color": "#8cc342",
+          "social_icon_hover_color": "#ffffff",
+          "social_icon_bg": "#ffffff",
+          "social_icon_hover_bg": "#ebe5e5",
+          "show_account": true,
+          "show_header_cart": true,
+          "show_header_wishlist": true,
+          "show_header_compare": false,
+          "icon_color": "#8cc342",
+          "icon_hover_color": "#fad400",
+          "icon_bg": "rgba(0,0,0,0)",
+          "icon_hover_bg": "rgba(0,0,0,0)",
+          "ship_1_title": "asd",
+          "ship_1_subtitle": "asd",
+          "ship_2_title": "",
+          "ship_2_subtitle": "",
+          "shipping_title_clr": "#f7f7f7",
+          "shipping_subtitle_clr": "#f7f7f7",
+          "enable_menu_indicator": true,
+          "pick_menu": "main-menu",
+          "show_secondary_menu": false,
+          "secondary_menu": "main-menu",
+          "header_bg": "#ffffff",
+          "menu_bg": "#8cc342",
+          "menu_color": "#fbfbfb",
+          "menu_active_color": "#fad400",
+          "menu_active_bg": "rgba(0,0,0,0)",
+          "mega_menu_bg": "#ffffff",
+          "submenu_color": "#1a1a1a",
+          "submenu_hover_color": "#206469",
+          "font_size": 18,
+          "font_size_sub": 16
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-4": {
+            "type": "logo",
+            "settings": {
+              "title": "",
+              "text": "",
+              "link_text": "Know more",
+              "url": "",
+              "footer_btn_color": "#206469",
+              "footer_btn_bg": "#206469",
+              "footer_btn_hover_color": "#206469",
+              "footer_btn_hover_bg": "#206469",
+              "footer_logo_height": 115,
+              "container_width": 25,
+              "column_alignment": "text-start"
+            }
+          },
+          "footer-1": {
+            "type": "menu",
+            "settings": {
+              "title": "Help",
+              "menu": "footer",
+              "container_width": 25,
+              "column_alignment": "text-start"
+            }
+          },
+          "footer-2": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "title": "Support",
+              "menu": "",
+              "container_width": 15,
+              "column_alignment": "text-start"
+            }
+          },
+          "f7bb9efb-3b0b-4d63-9e67-2a7174a7a526": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "title": "Information",
+              "menu": "",
+              "container_width": 15,
+              "column_alignment": "text-start"
+            }
+          },
+          "a3b463cf-db4c-44cb-8b73-8c9c1cdf4fb4": {
+            "type": "address",
+            "settings": {
+              "title": "Contact Us",
+              "footer_address": "527 Kings Hwy\nBrooklyn, NY 11223  USA",
+              "footer_contact_no": "718-645-1213",
+              "office_hours": "",
+              "footer_contact_id": "info@holonkosher.com",
+              "container_width": 25,
+              "column_alignment": "text-start"
+            }
+          }
+        },
+        "block_order": [
+          "footer-4",
+          "footer-1",
+          "footer-2",
+          "f7bb9efb-3b0b-4d63-9e67-2a7174a7a526",
+          "a3b463cf-db4c-44cb-8b73-8c9c1cdf4fb4"
+        ],
+        "settings": {
+          "full": true,
+          "spacing_both_ends": true,
+          "padding": "80,40",
+          "top_space": 0,
+          "footer_bg_clr": "#ffffff",
+          "color_opacity": 1,
+          "footer_bg_img": true,
+          "image_1": "shopify://shop_images/favicon.png",
+          "show_footer_title": true,
+          "footer_heading_clr": "#000000",
+          "footer_txt_clr": "#848484",
+          "footer_link_clr": "#848484",
+          "footer_link_hover_clr": "#84c225",
+          "footer__bottom_bg": "#000000",
+          "footer_color": "#ffffff",
+          "footer_link_hover": "#84c225",
+          "color_borders": "#e4e4e4",
+          "show_payment_icons": true,
+          "show_copyright": true,
+          "show_social": true,
+          "social_placement": "with_newsletter",
+          "social_style": "with_brand_name",
+          "newsletter_placement": "default",
+          "footer_menu_style": "vertical",
+          "enable_inline_footer_menu": true,
+          "footer": "main-menu",
+          "copyright_text": "",
+          "copyright_link": "",
+          "copyright_link_color": "#ffffff",
+          "copyright_link_color_hover": "#84c225"
+        }
+      },
+      "modal-newsletter": {
+        "type": "modal-newsletter",
+        "settings": {
+          "enable_newsletter_modal": false,
+          "dt_sc_cookie-expires": 1,
+          "dt_sc_cookie-modal-delay": "2000",
+          "overlay_background_color": "#000000",
+          "overlay_background_transparency": "0.8",
+          "block_text_align": "text-center",
+          "dt_sc_modal_bg_image": "shopify://shop_images/wall-stone-background-2022-12-15-20-09-57-utc.jpg",
+          "enable_overlay": true,
+          "background_color": "#ffffff",
+          "overlay_transparency": "0.9",
+          "form_style": "style-1",
+          "form_gap": "10px",
+          "dt_sc_cookie_sub_title": "",
+          "dt_sc_cookie-modal-title": "Get to know the latest offers",
+          "dt_sc_cookie-modal-content": "Subscribe and get notified at first on the latest update and offers!",
+          "dt_sc_newsletter_additional_content": "We do not spam",
+          "enable_social_icon": false,
+          "section_title_color": "",
+          "section_sub_title_color": "",
+          "form_bg": "#ffffff",
+          "button_bg_color": "",
+          "button_text_color": "",
+          "button_hover_bg_color": "",
+          "button_hover_text_color": "",
+          "additional_text_color": "#000000",
+          "social_icon_color": "",
+          "social_icon_hover_color": ""
+        }
+      },
+      "gdpr-cookies": {
+        "type": "gdpr-cookies",
+        "settings": {
+          "show_gdpr": false,
+          "style": "left",
+          "enable_box_shadow": false,
+          "text": "By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.",
+          "accept": "Accept",
+          "decline": "Decline",
+          "bg_color": "#78b144",
+          "text_color": "#ffffff",
+          "button_bg_color": "#206469",
+          "button_text_color": "#ffffff",
+          "button_text_hover_color": "#000000",
+          "button_bg_hover_color": "#d8f3f5",
+          "button_padding": "10px 20px 10px 20px"
+        }
+      },
+      "customer-purchased": {
+        "type": "customer-purchased",
+        "settings": {
+          "display_recent_purchase": true,
+          "placement": "right",
+          "text": "Someone recently bought a"
+        }
+      },
+      "index-sidebar-menu": {
+        "type": "index-sidebar-menu",
+        "settings": {
+          "filter_title": "Product Categories",
+          "linklist": "side-menu"
+        }
+      },
+      "index-sidebar-promo": {
+        "type": "index-sidebar-promo",
+        "settings": {
+          "title": "",
+          "text": "",
+          "image": "shopify://shop_images/img-1_7002e5a9-cc69-4a06-83d3-4cf2428035a1.webp",
+          "link_text": "",
+          "link": "",
+          "txt_color": ""
+        }
+      },
+      "index-sidebar-products": {
+        "type": "index-sidebar-products",
+        "settings": {
+          "title": "Featured Products",
+          "collection": "baby-food-formula",
+          "limit": 4
+        }
+      },
+      "index-sidebar-promo2": {
+        "type": "index-sidebar-promo2",
+        "settings": {
+          "title": "",
+          "text": "",
+          "link_text": "",
+          "link": "",
+          "txt_color": ""
+        }
+      },
+      "index-sidebar-quotes": {
+        "type": "index-sidebar-quotes",
+        "blocks": {
+          "f237abf6-2200-4b91-9c10-fa04f5d147e6": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Ullamcorper malesuada proin libero nunc consequat sagittis id consectetur purus un rit ido.</p>",
+              "author": "Christina",
+              "designation": "Art Director",
+              "star": "0"
+            }
+          },
+          "435186c1-dde8-4cda-b416-b89c1ad6b8bb": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Nisl suscipit adipiscing bibendum est ultricies integer. Mi in nulla posuere sollicitudin aliquam. </p>",
+              "author": "Marry Crome",
+              "designation": "Analyst",
+              "star": "0"
+            }
+          }
+        },
+        "block_order": [
+          "f237abf6-2200-4b91-9c10-fa04f5d147e6",
+          "435186c1-dde8-4cda-b416-b89c1ad6b8bb"
+        ],
+        "settings": {
+          "title": "Testimonials"
+        }
+      },
+      "index-sidebar-carousel": {
+        "type": "index-sidebar-carousel",
+        "settings": {
+          "title": "",
+          "collection": "prepared-foods",
+          "limit": 5,
+          "enable_slider": true
+        }
+      },
+      "index-sidebar-blog-list": {
+        "type": "index-sidebar-blog-list",
+        "settings": {
+          "title": "Featured Posts",
+          "blog": "",
+          "post_limit": 4,
+          "show_description": false,
+          "show_tags": false,
+          "show_button": false,
+          "show_comments": false,
+          "blog_show_author": false,
+          "blog_show_date": false
+        }
+      },
+      "index-sidebar-icon-text": {
+        "type": "index-sidebar-icon-text",
+        "blocks": {
+          "31855a48-132d-4f6f-8073-090be50f505a": {
+            "type": "text",
+            "settings": {
+              "icon": "shopify://shop_images/1.png",
+              "title": "Same Day Delivery",
+              "title_color": "#000000",
+              "sub_title": "Same-day local delivery to your door",
+              "sub_title_color": "#848484",
+              "link": ""
+            }
+          },
+          "18747a91-eabe-4e62-9811-199656d3a8c1": {
+            "type": "text",
+            "settings": {
+              "icon": "shopify://shop_images/2.png",
+              "title": "Customer Service Support",
+              "title_color": "#000000",
+              "sub_title": "Live agents & real-time order tracking",
+              "sub_title_color": "#848484",
+              "link": ""
+            }
+          },
+          "d71df5b2-141d-4f77-84cc-5b13599cbac5": {
+            "type": "text",
+            "settings": {
+              "icon": "shopify://shop_images/5.png",
+              "title": "Large Selection",
+              "title_color": "#000000",
+              "sub_title": "Local & Imported Foods",
+              "sub_title_color": "#848484",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "31855a48-132d-4f6f-8073-090be50f505a",
+          "18747a91-eabe-4e62-9811-199656d3a8c1",
+          "d71df5b2-141d-4f77-84cc-5b13599cbac5"
+        ],
+        "settings": {
+          "enable_icon": true,
+          "bg_color": "#ffffff"
+        }
+      },
+      "index-our-brands": {
+        "type": "index-our-brands",
+        "blocks": {
+          "aeeb4759-0ee5-4f9e-a526-3efe3f181767": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "3d8d9c18-62e3-4021-9089-115a7ee9a532": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "9d30e3fe-6e63-46a9-ab78-50fd1e67049d": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "8ec2b82b-9947-47bc-b0c9-7d1ee4696889": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "d59780b5-9218-4b89-aa83-916d7b5b02d5": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "c8dad2fb-8212-408f-8920-157bd320d3af": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "aeeb4759-0ee5-4f9e-a526-3efe3f181767",
+          "3d8d9c18-62e3-4021-9089-115a7ee9a532",
+          "9d30e3fe-6e63-46a9-ab78-50fd1e67049d",
+          "8ec2b82b-9947-47bc-b0c9-7d1ee4696889",
+          "d59780b5-9218-4b89-aa83-916d7b5b02d5",
+          "c8dad2fb-8212-408f-8920-157bd320d3af"
+        ],
+        "settings": {
+          "title": "Logo list"
+        }
+      },
+      "index-sidebar-tags": {
+        "type": "index-sidebar-tags",
+        "settings": {
+          "sidebar_bg_color": "#ffffff",
+          "primary_btn_text": "#000000",
+          "primary_btn_bg": "#f4f4f4",
+          "primary_hover_btn": "#84c225",
+          "primary_hover_btn_txt": "#ffffff",
+          "title": "",
+          "enable_sidebar_cloud": false,
+          "shop_by_tags_list": ""
+        }
+      },
+      "home-newsletter": {
+        "type": "home-newsletter",
+        "settings": {
+          "full": true,
+          "spacing_both_ends": true,
+          "padding": "40,40",
+          "margin": "60,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "background_color": "#84c225",
+          "enable_overlay": true,
+          "overlay_transparency": "1",
+          "section_heading": "Newsletter",
+          "section_sub_heading": "",
+          "section_description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "#ffffff",
+          "section_sub_heading_color": "#ffffff",
+          "section_description_color": "#ffffff",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-start",
+          "section_position": "text-center",
+          "newsletter_form_width": "100%",
+          "newsletter_description": "",
+          "news_style": "default",
+          "reverse_column": false,
+          "space_in_between": "10px",
+          "newsletter_box_border_color": "#ffffff",
+          "newsletter_box_bg_color": "#84c225",
+          "newsletter_box_border_focus_color": "#ffffff",
+          "newsletter_button_bg_color": "#ffffff",
+          "newsletter_button_text_color": "#000000",
+          "newsletter_button_hover_bg_color": "#fad400",
+          "newsletter_button_hover_text_color": "#000000",
+          "newsletter_description_color": "#ffffff",
+          "social_icon_color": "#ffffff",
+          "social_icon_hover_color": "#fad400",
+          "custom_class_name": ""
+        }
+      },
+      "top-bar": {
+        "type": "top-bar",
+        "settings": {
+          "full": true,
+          "spacing_both_ends": true,
+          "display_top_adv_bar": false,
+          "display_top_adv_bar_mobile": true,
+          "display_top_bar": false,
+          "show_header_currency": false,
+          "notification_bar_bg": "#ffffff",
+          "stripe_icon": "#84c225",
+          "stripe_icon_color": "#000000",
+          "stripe_icon_hover": "#fad400",
+          "stripe_icon_hover_color": "#000000",
+          "notification_discount": "50% OFF",
+          "notification_discount_clr": "#000000",
+          "notification_discount_txt": "Discount",
+          "notification_discount_text_clr": "#84c225",
+          "notification_text": "Long Weekend Sale Up to 50% OFF",
+          "notification_text_clr": "#000000",
+          "notification_promo_txt": "Enter Promotion Code",
+          "notification_promo_txt_clr": "#000000",
+          "notification_promo_code": "Sale2017",
+          "notification_promo_code_clr": "#000000",
+          "notification_linktxt": "Shop Now",
+          "top_bar_btn_bg": "#fad400",
+          "top_bar_btn_txt": "#000000",
+          "top_bar_btn_hoverbg": "#84c225",
+          "top_bar_btn_hovertxt": "#ffffff",
+          "header_notification_link": "/collections/all",
+          "top_bar_bg": "#605e5e",
+          "top_bar_text": "#f7f7f7",
+          "top_bar_links": "#ffffff",
+          "top_bar_link_hover": "#fad400",
+          "top_border_between_bars": "#ffffff",
+          "header_phone_value": "0000 - 123 456789",
+          "header_mail_value": "info@example.com",
+          "store_location": "Store Location",
+          "store_location_link": "",
+          "track_your_order": "Track Your Order",
+          "track_your_order_link": "",
+          "currency_icon": "#ffffff",
+          "currency_icon_hover": "#fad400",
+          "currency_bg": "#ffffff",
+          "currency_link": "#000000"
+        }
+      },
+      "index-sidebar-products2": {
+        "type": "index-sidebar-products2",
+        "settings": {
+          "title": "Top Sellers",
+          "collection": "dairy-eggs",
+          "limit": 4
+        }
+      },
+      "inner-page-overlay-section": {
+        "type": "inner-page-overlay-section",
+        "blocks": {
+          "4231a1aa-0615-4264-8c32-06f3b02fc2ac": {
+            "type": "content",
+            "settings": {
+              "image": "shopify://shop_images/carousel5_ac326fde-b95a-4246-8074-d059a458cb73.jpg",
+              "title": "Farm Fresh Vegetables",
+              "sub_title": "",
+              "text": "Sed vestibulum nulla elementum auctor tincidunt. Aliquam sit amet cursus mauris. Sed vitae mattis ipsum. Vestibulum enim nulla, sollicitudin ac hendrerit nec, tempor quis nisl"
+            }
+          },
+          "9defccb6-0aeb-4e33-8f99-d1b80f995ac4": {
+            "type": "content",
+            "settings": {
+              "image": "shopify://shop_images/deals.jpg",
+              "title": "Bean Coffee Seed",
+              "sub_title": "",
+              "text": "Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Vel pharetra vel turpis nunc. Rhoncus mattis rhoncus urna neque viverra justo nec"
+            }
+          },
+          "bc85afe2-5049-455f-9b80-fe1d1512d78e": {
+            "type": "content",
+            "settings": {
+              "image": "shopify://shop_images/ripe-red-strawberries-in-a-white-bowl.jpg",
+              "title": "Organic Fruits",
+              "sub_title": "",
+              "text": "Sit amet venenatis urna cursus eget. Tellus cras adipiscing enim eu turpis egestas pretium. Cras semper auctor neque vitae tempus quam. Vel elit scelerisque mauris pellentesque"
+            }
+          }
+        },
+        "block_order": [
+          "4231a1aa-0615-4264-8c32-06f3b02fc2ac",
+          "9defccb6-0aeb-4e33-8f99-d1b80f995ac4",
+          "bc85afe2-5049-455f-9b80-fe1d1512d78e"
+        ],
+        "settings": {
+          "enable": false,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "0,0",
+          "margin": "0,60",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "",
+          "overlay_transparency": "0.5",
+          "section_heading": "",
+          "section_sub_heading": "",
+          "section_description": "",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "grid": "3",
+          "overlay_style_height": 300,
+          "overlay_style_height_laptop": 300,
+          "overlay_style_height_mobile": 300,
+          "block_bg": "#fad400",
+          "block_heading_color": "",
+          "block_sub_heading_color": "",
+          "block_description_color": "#000000"
+        }
+      },
+      "inner-page-masonary-overlay-section": {
+        "type": "inner-page-masonary-overlay-section",
+        "blocks": {
+          "36011c0b-ac1e-4eb1-83af-52a9260b8abd": {
+            "type": "content",
+            "settings": {
+              "title": "Heading",
+              "sub_title": "Sub Heading",
+              "text": "Sed vestibulum nulla elementum auctor tincidunt. Aliquam sit amet cursus mauris. Sed vitae mattis ipsum. Vestibulum enim nulla, sollicitudin ac hendrerit nec, tempor quis nisl"
+            }
+          }
+        },
+        "block_order": [
+          "36011c0b-ac1e-4eb1-83af-52a9260b8abd"
+        ],
+        "settings": {
+          "enable": true,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "0,0",
+          "margin": "0,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "",
+          "overlay_transparency": "0.5",
+          "section_heading": "inner-page overlay section",
+          "section_sub_heading": "Sub Heading",
+          "section_description": "Use this text to share the information which you like!.",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "primary_title": "Title",
+          "primary_sub_title": "Sub title",
+          "primary_description": "Short description",
+          "primary_button_text": "",
+          "primary_button_link": "",
+          "main_banner_height": 600,
+          "main_banner_height_lap": 550,
+          "main_banner_height_tab": 500,
+          "main_banner_height_mobile": 450,
+          "block_bg": "",
+          "block_heading_color": "",
+          "block_sub_heading_color": "",
+          "block_description_color": "",
+          "primary_button_bg_color": "",
+          "primary_button_text_color": "",
+          "primary_button_hover_bg_color": "",
+          "primary_button_hover_text_color": ""
+        }
+      },
+      "inner-page-partial-overlay-section": {
+        "type": "inner-page-partial-overlay-section",
+        "settings": {
+          "enable": true,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "0,0",
+          "margin": "0,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "",
+          "overlay_transparency": "0.5",
+          "section_heading": "inner-page partial overlay section",
+          "section_sub_heading": "Sub Heading",
+          "section_description": "Use this text to share the information which you like!.",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "grid": "2",
+          "overlay_style_height": 500,
+          "overlay_style_height_laptop": 550,
+          "overlay_style_height_tab": 600,
+          "overlay_style_height_mobile": 650,
+          "block_bg": "",
+          "block_heading_color": "",
+          "block_description_color": "",
+          "block_price_bg_color": "",
+          "block_price_color": "",
+          "block_icon_color": "",
+          "block_icon_bg_color": ""
+        }
+      },
+      "inner-page-list-with-image-section": {
+        "type": "inner-page-list-with-image-section",
+        "blocks": {
+          "3de76814-8c74-4514-ae83-5939490ea69f": {
+            "type": "content",
+            "settings": {
+              "sub_title": "ALWAYS FRESH"
+            }
+          },
+          "2d280604-85c8-458b-b07c-2569143ed45b": {
+            "type": "content",
+            "settings": {
+              "sub_title": "HEALTHY KOSHER FOOD"
+            }
+          },
+          "14e89eb8-d8d0-4ee6-ac6c-74737144c9fe": {
+            "type": "content",
+            "settings": {
+              "sub_title": "ISRAELI MADE PRODUCTS"
+            }
+          },
+          "1d7e05bd-6b85-4cd0-b49d-afe106d19d35": {
+            "type": "content",
+            "settings": {
+              "sub_title": "TOP QUALITY PRODUCTS AND SERVICE"
+            }
+          }
+        },
+        "block_order": [
+          "3de76814-8c74-4514-ae83-5939490ea69f",
+          "2d280604-85c8-458b-b07c-2569143ed45b",
+          "14e89eb8-d8d0-4ee6-ac6c-74737144c9fe",
+          "1d7e05bd-6b85-4cd0-b49d-afe106d19d35"
+        ],
+        "settings": {
+          "enable": true,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "100,80",
+          "margin": "0,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "#e9e9e9",
+          "overlay_transparency": "0.5",
+          "section_heading": "",
+          "section_sub_heading": "",
+          "section_description": "",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "title": "About Holon Kosher Foods",
+          "text": "Welcome to Holon Kosher Foods! We are a family-owned and operated grocery store located in the heart of Brooklyn, NY. For over 30 years, we have been proud to serve our community with the highest quality kosher products and exceptional customer service.\n<br><br>\nAt Holon Kosher Foods, we believe that good food brings people together. That's why we offer a diverse selection of Israeli and international foods, including fresh produce, meats, bakery items, and prepared foods made in-house by our talented chefs. Whether you're looking for a quick bite on-the-go or ingredients for a gourmet meal, we have everything you need to make your next meal unforgettable.\n<br><br>\nWe take pride in our commitment to quality and freshness. All of our products are certified kosher, and we work with the best suppliers to ensure that we only offer the finest products available. Our team is passionate about food, and we are always happy to share our expertise and recommendations with our customers.\n<br><br>\nWe are also excited to offer a convenient online store, where you can shop our full range of products from the comfort of your home. Whether you're shopping for local delivery or nationwide shipping, we make it easy to get the products you need when you need them.\n<br><br>\nThank you for choosing Holon Kosher Foods. We look forward to serving you!",
+          "block_heading_color": "",
+          "block_description_color": "#151616",
+          "block_list_icon_color": "",
+          "block_list_color": ""
+        }
+      },
+      "inner-page-content-with-image-section": {
+        "type": "inner-page-content-with-image-section",
+        "settings": {
+          "enable": true,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "0,0",
+          "margin": "0,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "",
+          "overlay_transparency": "0.5",
+          "section_heading": "List with image section 2",
+          "section_sub_heading": "Sub Heading",
+          "section_description": "Use this text to share the information which you like!.",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "block_bg": "",
+          "block_heading_color": "",
+          "block_description_color": "",
+          "block_icon_color": ""
+        }
+      },
+      "inner-page-image-with-icon-section": {
+        "type": "inner-page-image-with-icon-section",
+        "settings": {
+          "enable": true,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "0,0",
+          "margin": "0,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "",
+          "overlay_transparency": "0.5",
+          "section_heading": "Image with icon section",
+          "section_sub_heading": "Sub Heading",
+          "section_description": "Use this text to share the information which you like!.",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "grid": "3",
+          "block_heading_color": "",
+          "block_description_color": "",
+          "block_icon_bg_color": "",
+          "block_icon_color": "",
+          "block_icon_bg_hover_color": "",
+          "block_icon_hover_color": ""
+        }
+      },
+      "inner-page-image-with-icon-section-type-2": {
+        "type": "inner-page-image-with-icon-section-type-2",
+        "settings": {
+          "enable": true,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "0,0",
+          "margin": "0,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "",
+          "overlay_transparency": "0.5",
+          "section_heading": "Image with icon section type 2",
+          "section_sub_heading": "Sub Heading",
+          "section_description": "Use this text to share the information which you like!.",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "main_title": "Heading",
+          "sub_title": "Sed vestibulum nulla elementum auctor tincidunt. Aliquam sit amet cursus mauris. Sed vitae mattis ipsum.",
+          "block_heading_color": "",
+          "block_description_color": "",
+          "block_icon_bg_color": "",
+          "block_icon_color": "",
+          "block_icon_bg_hover_color": "",
+          "block_icon_hover_color": ""
+        }
+      },
+      "inner-page-icon-text-section": {
+        "type": "inner-page-icon-text-section",
+        "settings": {
+          "enable": true,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "0,0",
+          "margin": "0,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "",
+          "overlay_transparency": "0.5",
+          "section_heading": "Icon with text",
+          "section_sub_heading": "Sub Heading",
+          "section_description": "Use this text to share the information which you like!.",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "column": "four-column",
+          "block_heading_color": "",
+          "block_description_color": "",
+          "block_image_bg_color": "",
+          "block_image_bg_hover_color": ""
+        }
+      },
+      "inner-page-team-section": {
+        "type": "inner-page-team-section",
+        "settings": {
+          "enable": true,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "0,0",
+          "margin": "0,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "",
+          "overlay_transparency": "0.5",
+          "section_heading": "inner-page our team",
+          "section_sub_heading": "Sub Heading",
+          "section_description": "Use this text to share the information which you like!.",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "column": "four-column",
+          "block_heading_color": "",
+          "block_designation_color": "",
+          "block_bg": "",
+          "block_social_icon_bg_color": "",
+          "block_social_icon_color": "",
+          "block_social_icon_hover_bg_color": "",
+          "block_social_icon_hover_color": ""
+        }
+      },
+      "inner-page-info-box-section": {
+        "type": "inner-page-info-box-section",
+        "settings": {
+          "enable": false,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "0,0",
+          "margin": "100,70",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "",
+          "overlay_transparency": "0.5",
+          "section_heading": "",
+          "section_sub_heading": "",
+          "section_description": "",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "heading": "Join Us :",
+          "sub_heading": "let's get our fresh Farm",
+          "text": "",
+          "button_text": "Read More",
+          "button_link": "",
+          "block_bg": "#78b144",
+          "block_border": "",
+          "block_heading_color": "",
+          "block_sub_heading_color": "",
+          "block_description_color": "#000000",
+          "block_button_bg_color": "#84c225",
+          "block_button_text_color": "#f7f7f7",
+          "block_button_hover_bg_color": "#ffffff",
+          "block_button_hover_text_color": "#84c225"
+        }
+      },
+      "inner-page-icon-box-section": {
+        "type": "inner-page-icon-box-section",
+        "blocks": {
+          "57b0961b-4be7-4178-978a-f99cf7b50b3c": {
+            "type": "content",
+            "settings": {
+              "font_icon": "fa fa-leaf",
+              "title": "Highest Standard",
+              "text": "Vestibulum enim nulla, sollicitudin ac hendrerit nec, tempor quis nisl. Sed vestibulum nulla elementum auctor tincidunt. Aliquam sit amet cursus mauris. Sed vitae mattis ipsum.",
+              "reverse_column": false
+            }
+          },
+          "52f62d55-acad-4956-a557-ceb1e78bc437": {
+            "type": "content",
+            "settings": {
+              "font_icon": "fa fa-tint",
+              "title": "Fair Price",
+              "text": "Sed vestibulum nulla elementum auctor tincidunt. Aliquam sit amet cursus mauris. Sed vitae mattis ipsum. Vestibulum enim nulla, sollicitudin ac hendrerit nec, tempor quis nisl.",
+              "reverse_column": false
+            }
+          },
+          "3439aa53-55f7-4d23-8401-a6084277a53d": {
+            "type": "content",
+            "settings": {
+              "font_icon": "fa fa-globe",
+              "title": "Customer Satisfaction",
+              "text": "Aliquam sit amet cursus mauris. Sed vitae mattis ipsum. Vestibulum enim nulla, sollicitudin ac hendrerit nec, tempor quis nisl. Sed vestibulum nulla elementum auctor tincidunt.",
+              "reverse_column": false
+            }
+          }
+        },
+        "block_order": [
+          "57b0961b-4be7-4178-978a-f99cf7b50b3c",
+          "52f62d55-acad-4956-a557-ceb1e78bc437",
+          "3439aa53-55f7-4d23-8401-a6084277a53d"
+        ],
+        "settings": {
+          "enable": false,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "60,0",
+          "margin": "0,100",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": true,
+          "background_color": "#e9e9e9",
+          "overlay_transparency": "1",
+          "section_heading": "",
+          "section_sub_heading": "",
+          "section_description": "",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "grid": "3",
+          "block_heading_color": "",
+          "block_description_color": "",
+          "block_icon_bg_color": "",
+          "block_icon_color": "",
+          "block_icon_bg_hover_color": "",
+          "block_icon_hover_color": ""
+        }
+      },
+      "inner-page-number-counter-section": {
+        "type": "inner-page-number-counter-section",
+        "settings": {
+          "enable": true,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "0,0",
+          "margin": "0,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "",
+          "overlay_transparency": "0.5",
+          "section_heading": "Number Counter",
+          "section_sub_heading": "Sub Heading",
+          "section_description": "Use this text to share the information which you like!.",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "grid": "4",
+          "column_gap": "30",
+          "counter_style": "grid",
+          "vertical_position": "vertical-top",
+          "block_text_align": "text-start",
+          "reverse_column": false,
+          "enable_boxed": false,
+          "enable_overall_border": false,
+          "border_radius": "0",
+          "icon_border_radius": "0px",
+          "block_icon_outer_size": "75",
+          "block_icon_size": "50",
+          "enable_box_shadow": false,
+          "block_bg_color": "",
+          "block_icon_border_color": "",
+          "block_icon_bg_color": "",
+          "block_icon_color": "",
+          "block_title_color": "",
+          "block_text_color": "",
+          "block_value_color": "",
+          "block_value_text_color": "",
+          "block_border_color": ""
+        }
+      },
+      "inner-page-brand-logos": {
+        "type": "inner-page-brand-logos",
+        "settings": {
+          "enable": false,
+          "full": true,
+          "spacing_both_ends": true,
+          "padding": "0,0",
+          "margin": "120,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": true,
+          "background_color": "#ffffff",
+          "overlay_transparency": "1",
+          "section_heading": "",
+          "section_sub_heading": "",
+          "section_description": "",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "grid": "3",
+          "block_style": "style-2",
+          "enable_box_shadow": false,
+          "column_gap": "30",
+          "border_radius": "0",
+          "block_border_color": "#4f8a10",
+          "block_background_color": "#fad400",
+          "enable_slider": true,
+          "enable_auto_height": true,
+          "items_per_view": 6,
+          "slider_autoplay": 0,
+          "dots": false,
+          "carousel_pagination_alignment": "center_pagination",
+          "arrows": false,
+          "nav_arrow_position": "navigation-bottom-center",
+          "center_nav_arrow_alignment": "outside_container",
+          "navigation_button_color": "",
+          "navigation_button_icon_color": "",
+          "navigation_button_hover_color": "",
+          "navigation_button_hover_icon_color": "",
+          "navigation_dot_color": "",
+          "navigation_dot_active_color": ""
+        }
+      },
+      "inner-page-testimonials-section": {
+        "type": "inner-page-testimonials-section",
+        "blocks": {
+          "2f245650-32b5-4366-8864-f1f2f085bfa5": {
+            "type": "content",
+            "settings": {
+              "quote": "<p>Ut porttitor leo a diam sollicitudin tempor id eu nisl. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat. Dui nunc mattis enim ut tellus. Diam maecenas ultricies mi eget mauris pharetra et. Lorem dolor sed viverra ipsum nunc. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Tellus elementum sagittis vitae et leo duis ut. A lacus vestibulum sed arcu non odio.<br/><br/></p>",
+              "author": "Catherin",
+              "job": "Professor",
+              "star": "3"
+            }
+          },
+          "d2cd92a8-3d98-44fb-83ab-eb9346800061": {
+            "type": "content",
+            "settings": {
+              "quote": "<p>Auctor elit sed vulputate mi sit amet mauris. Felis eget nunc lobortis mattis. In fermentum posuere urna nec tincidunt. Vel pharetra vel turpis nunc. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Vitae justo eget magna fermentum iaculis eu non diam. Hac habitasse platea dictumst quisque sagittis purus sit. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Neque volutpat ac tincidunt vitae sem. </p>",
+              "author": "Regina",
+              "job": "Artist",
+              "star": "3"
+            }
+          }
+        },
+        "block_order": [
+          "2f245650-32b5-4366-8864-f1f2f085bfa5",
+          "d2cd92a8-3d98-44fb-83ab-eb9346800061"
+        ],
+        "settings": {
+          "enable": false,
+          "full": false,
+          "spacing_both_ends": false,
+          "padding": "0,0",
+          "margin": "0,0",
+          "show_background_image": false,
+          "background_style": "default",
+          "enable_overlay": false,
+          "background_color": "#ffffff",
+          "overlay_transparency": "1",
+          "section_heading": "",
+          "section_sub_heading": "",
+          "section_description": "",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "grid": "1",
+          "block_style": "style_1",
+          "boxed_styles": "overall_boxed",
+          "enable_box_shadow": false,
+          "reverse_column": false,
+          "text_position": "text-start",
+          "quote_style": "quote-icon-in-content",
+          "author_info_style": "style_1",
+          "border_radius": "0",
+          "boxed_border_radius": "0",
+          "column_gap": "30",
+          "content_width": "20/80",
+          "lap_content_width": "20/80",
+          "vertical_position": "vertical-top",
+          "testimonial_border_color": "#e9e9e9",
+          "testimonial_background_color": "#ffffff",
+          "testimonial_content_color": "#848484",
+          "testimonial_review_color": "#fad400",
+          "testimonial_author_text_color": "",
+          "testimonial_author_designation_color": "",
+          "testimonial_author_separator_color": "",
+          "testimonial_quote_icon_color": "#84c225",
+          "enable_slider": true,
+          "enable_auto_height": true,
+          "items_per_view": 2,
+          "slider_autoplay": 0,
+          "dots": false,
+          "carousel_pagination_alignment": "center_pagination",
+          "carousel_pagination_bottom_alignment": "inside_element",
+          "arrows": false,
+          "nav_arrow_position": "navigation-bottom-center",
+          "center_nav_arrow_alignment": "inside_container",
+          "navigation_button_color": "",
+          "navigation_button_icon_color": "",
+          "navigation_button_hover_color": "",
+          "navigation_button_hover_icon_color": "",
+          "navigation_dot_color": "",
+          "navigation_dot_active_color": ""
+        }
+      },
+      "faq-template": {
+        "type": "faq-template",
+        "settings": {
+          "full": false,
+          "spacing_both_ends": false,
+          "section_heading": "FAQ Block",
+          "section_sub_heading": "Sub Heading",
+          "section_description": "Use this text to share the information which you like!.",
+          "section_button_text": "",
+          "section_button_link": "",
+          "section_heading_color": "",
+          "section_sub_heading_color": "",
+          "section_description_color": "",
+          "section_button_bg_color": "",
+          "section_button_text_color": "",
+          "section_button_hover_bg_color": "",
+          "section_button_hover_text_color": "",
+          "heading_position": "text-center",
+          "block_style": "default-style",
+          "text_position": "text-start",
+          "border_radius": "0",
+          "enable_box_shadow": false,
+          "enable_heading_icons": false,
+          "faq_icon_size": "30",
+          "enable_segmented_layout": false,
+          "segmented_layout_gap": "15",
+          "faq_heading_color": "",
+          "faq_heading_bg_color": "",
+          "faq_content_color": "",
+          "faq_content_bg_color": "",
+          "custom_class_name": ""
+        }
+      },
+      "modal-zipcode": {
+        "type": "modal-zipcode",
+        "settings": {
+          "zipcode_title": "Welcome to Holon Kosher Foods!",
+          "zipcode_sub_title": "We offer same-day delivery to local customers and shipping via carriers to non-locals. Please enter your zip code below to check for availability.",
+          "netzbiz_link": "https://www.holonfoods.com/",
+          "netzbiz_message": "Great, we ship to you!",
+          "shopify_message": "Great, we deliver to you!",
+          "enable_newsletter_modal": false,
+          "dt_sc_cookie-expires": 1,
+          "dt_sc_cookie-modal-delay": "5000",
+          "overlay_background_color": "",
+          "overlay_background_transparency": "0.75",
+          "block_text_align": "text-center",
+          "enable_overlay": false,
+          "background_color": "",
+          "overlay_transparency": "0.5",
+          "form_style": "style-1",
+          "form_gap": "10px",
+          "dt_sc_cookie_sub_title": "Huge Discount",
+          "dt_sc_cookie-modal-title": "JOIN NEWSLETTER",
+          "dt_sc_cookie-modal-content": "Get Upto 20% Off on your order.",
+          "dt_sc_newsletter_additional_content": "Signup for exclusive offers & discounts",
+          "enable_social_icon": false,
+          "section_title_color": "",
+          "section_sub_title_color": "",
+          "form_bg": "",
+          "button_bg_color": "",
+          "button_text_color": "",
+          "button_hover_bg_color": "",
+          "button_hover_text_color": "",
+          "additional_text_color": "",
+          "social_icon_color": "",
+          "social_icon_hover_color": ""
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "753555524262350086415": {
+        "type": "shopify://apps/izyunit-price-per-unit/blocks/izyunit/8a1a3018-8abb-49c2-900d-6604c0eb291d",
+        "disabled": false,
+        "settings": {}
+      },
+      "14479319785270113485": {
+        "type": "shopify://apps/zapiet-pickup-delivery/blocks/app-embed/5599aff0-8af1-473a-a372-ecd72a32b4d5",
+        "disabled": false,
+        "settings": {}
+      },
+      "6326688704511773616": {
+        "type": "shopify://apps/advance_reorder_repeat_order/blocks/adv-block/2dd67710-95db-4aa2-93c7-6a6c6f57d67f",
+        "disabled": false,
+        "settings": {}
+      },
+      "13768625480086291342": {
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#0038b8",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_left",
+          "button_vertical_position": "lowest",
+          "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
+        }
+      }
+    }
+  }
+}
