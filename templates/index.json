@@ -9,35 +9,6 @@
  */
 {
   "sections": {
-    "e8aa8559-fca5-48cc-9de9-470c0ec2d755": {
-      "type": "home-html-text",
-      "settings": {
-        "full": false,
-        "spacing_both_ends": false,
-        "padding": "0,0",
-        "margin": "30,0",
-        "show_background_image": false,
-        "background_style": "default",
-        "enable_overlay": false,
-        "background_color": "",
-        "overlay_transparency": "0.5",
-        "section_heading": "Welcome To Holon Kosher Foods",
-        "section_sub_heading": "",
-        "section_description": "Holon Foods is a trusted Kosher supermarket in Brooklyn, NY, serving the community for over 40 years with fresh, high-quality products. We specialize in Israeli and Middle Eastern foods, offering everything from gourmet prepared meals to authentic pickled vegetables, dips, and pastries. Our selection includes exclusive Israeli imports you won’t find anywhere else, bringing you the true taste of Israel. With nationwide shipping, we make it easy to enjoy fresh, authentic specialty foods wherever you are.",
-        "section_button_text": "",
-        "section_button_link": "shopify://collections/all",
-        "section_heading_color": "#8cc342",
-        "section_sub_heading_color": "",
-        "section_description_color": "#848484",
-        "section_button_bg_color": "#fad400",
-        "section_button_text_color": "",
-        "section_button_hover_bg_color": "#0038b8",
-        "section_button_hover_text_color": "",
-        "heading_position": "text-center",
-        "html": "<!--<div id='insta-feed'></div>-->",
-        "custom_class_name": ""
-      }
-    },
     "16282239220a372279": {
       "type": "home-product-tab",
       "blocks": {
@@ -747,6 +718,35 @@
         "custom_class_name": ""
       }
     },
+    "e8aa8559-fca5-48cc-9de9-470c0ec2d755": {
+      "type": "home-html-text",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "30,0",
+        "show_background_image": false,
+        "background_style": "default",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Welcome To Holon Kosher Foods",
+        "section_sub_heading": "",
+        "section_description": "Holon Foods is a trusted Kosher supermarket in Brooklyn, NY, serving the community for over 40 years with fresh, high-quality products. We specialize in Israeli and Middle Eastern foods, offering everything from gourmet prepared meals to authentic pickled vegetables, dips, and pastries. Our selection includes exclusive Israeli imports you won’t find anywhere else, bringing you the true taste of Israel. With nationwide shipping, we make it easy to enjoy fresh, authentic specialty foods wherever you are.",
+        "section_button_text": "",
+        "section_button_link": "shopify://collections/all",
+        "section_heading_color": "#8cc342",
+        "section_sub_heading_color": "",
+        "section_description_color": "#848484",
+        "section_button_bg_color": "#fad400",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "#0038b8",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "html": "<!--<div id='insta-feed'></div>-->",
+        "custom_class_name": ""
+      }
+    },
     "c9ac9176-99de-4f43-bbc0-a62df321c1b5": {
       "type": "home-product-carousel",
       "settings": {
@@ -818,6 +818,7 @@
   },
   "order": [
     "16282239220a372279",
+    "e8aa8559-fca5-48cc-9de9-470c0ec2d755",
     "82d21300-3736-49c5-9f3e-3b12d1e52d2f",
     "1628225372918b4e66",
     "5d487317-1add-4494-8be2-633ab783a3e3",
@@ -827,7 +828,6 @@
     "479d48e4-e6e6-47f7-a63e-9e12fd902f31",
     "9e0bc175-1cfb-49e4-9582-07f420315011",
     "ef522fd2-dac2-4918-9813-f737ed3db1c6",
-    "c9ac9176-99de-4f43-bbc0-a62df321c1b5",
-    "e8aa8559-fca5-48cc-9de9-470c0ec2d755"
+    "c9ac9176-99de-4f43-bbc0-a62df321c1b5"
   ]
 }
